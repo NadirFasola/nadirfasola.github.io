@@ -1,0 +1,60 @@
+title: Nadir Fasola
+logoWebp: /assets/img/logo/Nadir.webp
+logoJpg: /assets/img/logo/Nadir.jpg
+logoName: Nadir
+logoSurname: Fasola
+email: n.fasola@sheffield.ac.uk
+description: My personal website
+baseurl: ""
+url: ""
+show_downloads: false
+google_analytics: false
+color-scheme: auto
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
+sidebar:
+  - name: Google Scholar
+    icon: <i class="ai ai-google-scholar"></i>
+    link: https://scholar.google.com/citations?user=32eauoIAAAAJ
+  - name: ArXiv
+    icon: <i class="ai ai-arxiv"></i>
+    link: https://arxiv.org/search/math?searchtype=author&query=Fasola%2C+N
+  - name: Researchgate
+    icon: <i class="ai ai-researchgate"></i>
+    link: https://www.researchgate.net/profile/Nadir-Fasola
+  - name: Facebook
+    icon: <i class="fa-brands fa-facebook"></i>
+    link: https://www.facebook.com/nadir.fasola/
+  - name: Instagram
+    icon: <i class="fa-brands fa-instagram"></i>
+    link: https://www.instagram.com/nadir_fasola/
+
+defaults:
+  - scope:
+      path: "assets/img/gallery/jpg/fullSize"
+    values:
+      fullSizeJpg: true
+  - scope:
+      path: "assets/img/gallery/jpg/thumbs"
+    values:
+      thumbJpg: true
+  - scope:
+      path: "assets/img/gallery/jpg/placeholders"
+    values:
+      placeholderJpg: true
+  - scope:
+      path: "assets/img/gallery/webp/fullSize"
+    values:
+      fullSizeWebp: true
+  - scope:
+      path: "assets/img/gallery/webp/thumbs"
+    values:
+      thumbWebp: true
+  - scope:
+      path: "assets/img/gallery/webp/placeholders"
+    values:
+      placeholderWebp: true

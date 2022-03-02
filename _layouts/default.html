@@ -1,0 +1,76 @@
+{% case site.color-scheme %}
+  {% when "", nil, false, 0, empty %}
+    {% assign ColorScheme = "auto" %}
+  {% else %}
+    {% assign ColorScheme = site.color-scheme %}
+{% endcase %}
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <link rel="preload" href="{{site.logoWebp | relative_url}}" as="image">
+    <link rel="preload" href="{{site.logoJpg | relative_url}}" as="image">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    {% include progress-bar.html %}
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <header>
+          {% if site.logoJpg or site.logoWebp %}
+            <a href="{{ "/" | absolute_url }}"><picture>
+              <source srcset="{{site.logoWebp | relative_url}}">
+              <source srcset="{{site.logoJpg | relative_url}}">
+              <img class="img-circle" rel="prefetch" src="{{site.logoJpg | relative_url}}" alt="Logo">
+            </picture></a>
+          {% endif %}
+
+          <span class="home-title">
+          {% if site.blank_title %}
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          {% else %}
+            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          {% endif %}
+          </span>
+          <span class="home-title-mobile">
+          {% if site.blank_title %}
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          {% else %}
+            <h1><a href="{{ "/" | absolute_url }}"><span class="logo-name">{{ site.logoName }}</span><span class="logo-surname">{{ site.logoSurname }}</span></a></h1>
+          {% endif %}
+          </span>
+
+          {% include address.html %}
+
+        </header>
+
+        <div class="sidebar-footer">
+          {%- include footer-sidebar.html -%}
+          {% include links-sidebar.html %}
+        </div>
+      </div>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        {% include links-mobile.html %}
+        {%- include footer.html -%}
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

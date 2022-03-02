@@ -1,0 +1,17 @@
+<div class="progressbar-wrapper">
+  <div class="progressbar"></div>
+</div>
+
+<script defer>
+  const updateProgressbar = () => {
+    let scrollableHeight =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    let scrolledHeight =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    let scrolledRatio = (scrollableHeight / scrolledHeight) * 100;
+    document.querySelector(".progressbar").style.width = scrolledRatio + "%";
+  };
+
+  window.onscroll = updateProgressbar;
+</script>

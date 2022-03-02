@@ -1,0 +1,74 @@
+{% case site.color-scheme %}
+  {% when "", nil, false, 0, empty %}
+    {% assign ColorScheme = "auto" %}
+  {% else %}
+    {% assign ColorScheme = site.color-scheme %}
+{% endcase %}
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    {% include modal-image.html %}
+    {% include progress-bar.html %}
+    <div class="sideFilters">
+      <div class="sideFilters-close" onclick="closeSideFilters()"></div>
+      <div class="filters-wrapper">
+        <p>Filter the images:</p>
+        <ul class="portfolio-filter-list">
+          <li class="portfolio-filters-item" filter="BreggiaGorges"><span>Breggia Gorges</span></li>
+          <li class="portfolio-filters-item" filter="Como"><span>Como</span></li>
+          <li class="portfolio-filters-item" filter="GaviaTonale"><span>Gavia and Tonale Passes</span></li>
+          <li class="portfolio-filters-item" filter="Greece"><span>Greece</span></li>
+          <li class="portfolio-filters-item" filter="PeakDistrict"><span>Peak District</span></li>
+          <li class="portfolio-filters-item" filter="Prague"><span>Prague</span></li>
+          <li class="portfolio-filters-item" filter="Scotland"><span>Scotland</span></li>
+          <li class="portfolio-filters-item" filter="SomewhereInItaly"><span>Somewhere in Italy</span></li>
+          <li class="portfolio-filters-item" filter="Valtellina"><span>Valtellina</span></li>
+          <li class="portfolio-filters-item" filter="Vienna"><span>Vienna</span></li>
+          <li class="portfolio-filters-item" filter="Wildlife"><span>Wildlife</span></li>
+      </ul>
+    </div>
+    </div>
+    <header class="header-portfolio">
+        <div class="home-title-portfolio">
+          {% if site.blank_title %}
+            <h2>{{ site.title | default: site.github.repository_name }}</h2>
+          {% else %}
+            <h2><a href="{{ "/" | absolute_url }}"><span class="logo-name">{{ site.logoName }}</span><span class="logo-surname">{{ site.logoSurname }}</span></a></h2>
+          {% endif %}
+        </div>
+        <div class="portfolio-filters">
+          <div class="portfolio-filters-hamburger-wrapper" onclick="openSideFilters()"><div class="portfolio-filters-hamburger"></div></div>
+        </div>
+    </header>
+    <div class="wrapper-portfolio">
+
+        {{ content }}
+
+        {% include gallery.html %}
+    </div>
+    <footer class="footer-portfolio">
+        <div class="footer-portfolio-inner">
+          <hr>
+          {% include links-mobile.html %}
+          {%- include footer.html -%}
+        </div>
+      </footer>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/sideFilters.js" | relative_url }}"></script>
+  </body>
+</html>

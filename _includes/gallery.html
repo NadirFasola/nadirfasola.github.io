@@ -1,0 +1,38 @@
+<div class="gallery-container">
+  <ul class="gallery">
+    {% for image in page.images %}
+    <li class="gallery-item" data-filter="{{ image.filter-data }}">
+      <picture>
+        <source
+          srcset="{{ './assets/img/gallery/webp/thumbs/' | append: image.path | append: '.webp' | relative_url }}"
+        />
+        <source
+          srcset="{{ './assets/img/gallery/jpg/thumbs/' | append: image.path | append: '.jpg' | relative_url }}"
+        />
+        <img
+          src="{{ './assets/img/gallery/jpg/thumbs/' | append: image.path | append: '.jpg' | relative_url }}"
+          {%
+          if
+          image.alt
+          %}
+          alt="{{ image.alt }}"
+          {%
+          endif
+          %}
+          {%
+          if
+          image.title
+          %}
+          title="{{ image.title }}"
+          imgCaption="{{ image.caption }}"
+          {%
+          endif
+          %}
+        />
+      </picture>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script src="/assets/js/createGallery.js" defer></script>
