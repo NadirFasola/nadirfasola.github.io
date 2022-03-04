@@ -686,6 +686,226 @@ footer {
   left: 0;
 }
 
+.error404 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 0;
+
+  > h2 {
+    font-weight: lighter;
+  }
+
+  > h3 {
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  span {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 6rem;
+      font-weight: lighter;
+      margin-bottom: -0.5rem;
+    }
+    h2 {
+      width: 100%;
+      font-variant: small-caps;
+      align-items: center;
+      margin-top: 0;
+    }
+  }
+}
+
+.cv-section {
+  position: relative;
+  h1 {
+    font-size: 1.5rem;
+    // text-align: right;
+    border-bottom: 2px solid var(--clr-splitter-blockquote-and-section);
+    padding-bottom: 0.75rem;
+    padding-top: 2rem;
+  }
+
+  > .cv-wrapper-section {
+    overflow: hidden;
+    // max-height: 0;
+    max-height: initial;
+    transition: max-height 250ms ease-in-out;
+  }
+
+  .cv-icon-openclose {
+    position: absolute;
+    display: block;
+    top: 2.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: transform 250ms ease-in-out;
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  table {
+    tr {
+      td {
+        border: none;
+        padding-right: 0;
+        padding-left: 0;
+
+        &:first-of-type {
+          text-align: left;
+          font-weight: bold;
+          min-width: 160px;
+        }
+      }
+    }
+
+    .tr-no-bottom-space {
+      td {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .employment-card {
+    position: relative;
+    padding: 0 0 0 5rem;
+    &:not(:last-of-type) {
+      margin-bottom: -2rem;
+    }
+    &:not(:first-of-type) {
+      padding-top: 2rem;
+    }
+
+    div > hr {
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+
+    div > span {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      > p {
+        font-size: small;
+        font-style: italic;
+      }
+    }
+
+    div > p {
+      margin-bottom: 0.5rem;
+    }
+
+    &.current {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 2.375rem;
+        bottom: 0;
+        height: 50%;
+        width: 0.25rem;
+        background-color: var(--clr-a-text);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 2rem;
+        bottom: calc(50% - 0.5rem);
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        background-color: var(--clr-a-text);
+      }
+    }
+
+    &.past {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 2.375rem;
+        bottom: 0;
+        height: 100%;
+        width: 0.25rem;
+        background-color: var(--clr-kbd-border-bottom-and-shadow);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 2rem;
+        bottom: calc(50% - 0.5rem);
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        background-color: var(--clr-kbd-border-bottom-and-shadow);
+      }
+    }
+
+    &.last {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 2.375rem;
+        bottom: 0;
+        height: 100%;
+        width: 0.25rem;
+        background: linear-gradient(
+          to top,
+          var(--clr-kbd-border-bottom-and-shadow) 0 50%,
+          var(--clr-a-text) 50% 100%
+        );
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 2rem;
+        bottom: calc(50% - 0.5rem);
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        background-color: var(--clr-kbd-border-bottom-and-shadow);
+      }
+    }
+
+    &.first {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 2.375rem;
+        top: 0;
+        height: 50%;
+        width: 0.25rem;
+        background-color: var(--clr-kbd-border-bottom-and-shadow);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 2rem;
+        bottom: calc(50% - 0.5rem);
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        background-color: var(--clr-kbd-border-bottom-and-shadow);
+      }
+    }
+  }
+}
+
 @media print, screen and (max-width: 960px) {
   .home-title {
     display: none;
