@@ -1,10 +1,11 @@
 <div class="gallery-container">
   <ul class="gallery">
-    {% for picture in site.data.contentful.spaces.NadirFasola.portofilioPicture
-    %}
+    {% assign pictures = site.data.contentful.spaces.NadirFasola.portofilioPicture | reverse %}
+    {% for picture in pictures %}
     <li
       class="gallery-item"
       data-filter="{{ picture.filters }}"
+      data-caption="{{ picture.caption }}"
       {% for img in picture.imgs %}
       {% if img.url contains "-full.jpg" %} data-fullSizeJpg="{{ img.url }}"
       {% elsif img.url contains "-full.webp" %} data-fullSizeWebp="{{ img.url }}"

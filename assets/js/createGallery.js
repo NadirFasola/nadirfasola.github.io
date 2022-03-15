@@ -15,7 +15,9 @@ const openModal = (e) => {
   )} /><img src=${e.target.parentElement.getAttribute(
     "data-fullSizeJpg"
   )} alt=${e.target.alt} />`;
-  modalCaption.innerHTML = `<p>${e.target.alt}</p>`;
+  modalCaption.innerHTML = `<p>${e.target.parentElement.getAttribute(
+    "data-caption"
+  )}</p>`;
   modalContainer.style.display = "block";
   modalImage.getElementsByTagName("img")[0].onload = () => {
     pictureCaptionWrapper.style.transform = `translateY(${
