@@ -15,7 +15,14 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 
-# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
+# Contenful integration
+contentful:
+  spaces:
+    - NadirFasola:
+        space: jwwyx5n31g3n
+        access_token: FY71Pb9IRMgVClVyvpUihla6PYeVCzgeDgIUSCaZ6Zo
+
+# Social icons
 sidebar:
   - name: Google Scholar
     icon: <i class="ai ai-google-scholar"></i>

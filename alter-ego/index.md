@@ -6,9 +6,9 @@ title: Alter Ego
 # My life outside academia
 
 <picture style="float:right; width: 38%; margin-left: 1rem; margin-bottom: 0">
-    <source srcset="{{ '/assets/img/gallery/webp/thumbs/NadirFlute/NadirFlute (1).webp' | relative_url }}" />
-    <source srcset="{{ '/assets/img/gallery/jpg/thumbs/NadirFlute/NadirFlute (1).jpg' | relative_url }}" />
-    <img style="border-radius: .5rem" src="{{ '/assets/img/gallery/jpg/thumbs/NadirFlute/NadirFlute (1).jpg' | relative_url }}" alt="A picture of me with my flute" title="Quite the pretentious portrait, isn't it?" />
+    <source srcset="{{ '/assets/img//NadirFlute/NadirFlute (1).webp' | relative_url }}" />
+    <source srcset="{{ '/assets/img//NadirFlute/NadirFlute (1).jpg' | relative_url }}" />
+    <img style="border-radius: .5rem" src="{{ '/assets/img/NadirFlute/NadirFlute (1).jpg' | relative_url }}" alt="A picture of me with my flute" title="Quite the pretentious portrait, isn't it?" />
 </picture>
 
 Outside of academia, my life is characterised by an eclectic mix of disparate and seemingly unrelated interests. Some of these, the deeply rooted ones, essentially date back to my high school years, and even further back. I am extremely passionate about music and have been playing since I was a child. I graduated in flute from the Como Conservatory of Music, where my teacher was **Maurizo Saletti**. Although I don't play too often in public, I am always happy to practice with other people. The repertoire I usually play is mainly classical (in a broad sense), although I don't disdain to venture into less traditional genres for my instrument, such as folk, blues or even rock.

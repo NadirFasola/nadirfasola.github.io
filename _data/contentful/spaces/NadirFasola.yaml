@@ -1,0 +1,302 @@
+---
+portofilioPicture:
+- sys:
+    id: 1QCgI6jhChJBL8EoVm5X7s
+    created_at: !ruby/object:DateTime 2022-03-08 11:23:14.004000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:23:50.645000000 Z
+    content_type_id: portofilioPicture
+    revision: 2
+  filename: BamfordStanage (6)
+  imgs:
+  - sys:
+      id: 1IApExsUvRagSX3RCXHCPT
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.185000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.185000000 Z
+    title: BamfordStanage (6)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1IApExsUvRagSX3RCXHCPT/de1f049d2f42ba816cb40fce4bf55c9c/BamfordStanage__6_-full.jpg"
+  - sys:
+      id: 2B6TiNGH63BfS1mkQoJuEG
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.171000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.171000000 Z
+    title: BamfordStanage (6)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2B6TiNGH63BfS1mkQoJuEG/693a69fb284a0e8485562ff6e37bd253/BamfordStanage__6_-full.webp"
+  - sys:
+      id: 1cXhyZCONvS9MqtMVp7h6W
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.155000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.155000000 Z
+    title: BamfordStanage (6)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1cXhyZCONvS9MqtMVp7h6W/601078743a906f3bc5aa259a84d46052/BamfordStanage__6_-thumb.jpg"
+  - sys:
+      id: 2BXcELTBmA0PFFPjyFBv3p
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.176000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.176000000 Z
+    title: BamfordStanage (6)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2BXcELTBmA0PFFPjyFBv3p/b6ee5b5d4d9cf765313aa13e37d46a49/BamfordStanage__6_-thumb.webp"
+  - sys:
+      id: 4KtsK7xbNRSFuvnjmYjhMy
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.166000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.166000000 Z
+    title: BamfordStanage (6)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4KtsK7xbNRSFuvnjmYjhMy/3f8e451dd57c9fc9b79d5e7cecdcfb5d/BamfordStanage__6_-xs.jpg"
+  - sys:
+      id: 6344kDpj39mXFqgBOKj99D
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.161000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.161000000 Z
+    title: BamfordStanage (6)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6344kDpj39mXFqgBOKj99D/24cafeba85d4c035fe7e6dea048d987f/BamfordStanage__6_-xs.webp"
+- sys:
+    id: 6XkDZX4fbjiTAO0EdzsxL8
+    created_at: !ruby/object:DateTime 2022-03-08 11:22:50.217000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:22:50.217000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: BamfordStanage (5)
+  imgs:
+  - sys:
+      id: 4xk8jCdNJNStE899IEK3Cg
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.967000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.967000000 Z
+    title: BamfordStanage (5)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4xk8jCdNJNStE899IEK3Cg/05adaf7a4db8b68855bd9271f1209509/BamfordStanage__5_-thumb.jpg"
+  - sys:
+      id: 6gHnltYCz6BynLexDPiED2
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.961000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.961000000 Z
+    title: BamfordStanage (5)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6gHnltYCz6BynLexDPiED2/f440d3ddca5c7b0b6ffd855bfbde5e96/BamfordStanage__5_-thumb.webp"
+  - sys:
+      id: 4eKxU3Dy0YAx3uURiMx1XR
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.201000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.201000000 Z
+    title: BamfordStanage (5)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4eKxU3Dy0YAx3uURiMx1XR/5ce68cb77d8e8aad928b638b1b22ce84/BamfordStanage__5_-xs.webp"
+  - sys:
+      id: 4TQRa4aQxLeT9sTLQWFlWV
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.195000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.195000000 Z
+    title: BamfordStanage (5)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4TQRa4aQxLeT9sTLQWFlWV/f6cfe3d7b02b423714040309e8c9a394/BamfordStanage__5_-xs.jpg"
+  - sys:
+      id: pAiF3r3ud5FFLPbvRs6nV
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.181000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.181000000 Z
+    title: BamfordStanage (5)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/pAiF3r3ud5FFLPbvRs6nV/ff4f0dd4318db9e130cfdd32a6566d2e/BamfordStanage__5_-full.jpg"
+  - sys:
+      id: 7lTvWvRswdn3ZvI9HZUewO
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:22.190000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:22.190000000 Z
+    title: BamfordStanage (5)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/7lTvWvRswdn3ZvI9HZUewO/8f80e2e9e99d4b348425ec922fd513a5/BamfordStanage__5_-full.webp"
+- sys:
+    id: 6rIZFiOAngD8NkRz8kctnY
+    created_at: !ruby/object:DateTime 2022-03-08 11:21:52.201000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:21:52.201000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: BamfordStanage (4)
+  imgs:
+  - sys:
+      id: 4Bfhp0rAVlxUs7afFpZNGJ
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.084000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.084000000 Z
+    title: BamfordStanage (4)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4Bfhp0rAVlxUs7afFpZNGJ/355807f6087ee240defdf8f08dfc0ee8/BamfordStanage__4_-xs.webp"
+  - sys:
+      id: 3Zdr5iJ8LWpTxPC9umTI0K
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.996000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.996000000 Z
+    title: BamfordStanage (4)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/3Zdr5iJ8LWpTxPC9umTI0K/da28eaa700a15c88b0b15e0887f0bb55/BamfordStanage__4_-xs.jpg"
+  - sys:
+      id: 20Ro8xmbDYQf3Nhow3GOOj
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.990000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.990000000 Z
+    title: BamfordStanage (4)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/20Ro8xmbDYQf3Nhow3GOOj/07509f6a04158036e1af2f5cc98a7032/BamfordStanage__4_-thumb.webp"
+  - sys:
+      id: 1pOzKy38svk9QBSVsmwAw3
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.974000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.974000000 Z
+    title: BamfordStanage (4)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1pOzKy38svk9QBSVsmwAw3/9cf8a612d6178df0e749b5c41be48818/BamfordStanage__4_-full.webp"
+  - sys:
+      id: 4k2fDyND4LcepcppmaDjOo
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.978000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.978000000 Z
+    title: BamfordStanage (4)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4k2fDyND4LcepcppmaDjOo/a31c40c6a78cd3652fc7f5af76e1bd3e/BamfordStanage__4_-full.jpg"
+  - sys:
+      id: 77BkD2JOghtehgt2Ex8y3R
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:26.983000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:26.983000000 Z
+    title: BamfordStanage (4)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/77BkD2JOghtehgt2Ex8y3R/a35528b432a76768433a789bdc2e524a/BamfordStanage__4_-thumb.jpg"
+- sys:
+    id: 4bXLmKOAMnGjOemGuuJsWB
+    created_at: !ruby/object:DateTime 2022-03-08 11:20:50.908000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:20:50.908000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: BamfordStanage (3)
+  imgs:
+  - sys:
+      id: 76bqEgOvhRlUmAknLOVte6
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.049000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.049000000 Z
+    title: BamfordStanage (3)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/76bqEgOvhRlUmAknLOVte6/03ee9d77bd2530f68e324f00f82cced4/BamfordStanage__3_-thumb.webp"
+  - sys:
+      id: 5cWIhzXpZxyXITKJgEupsi
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.044000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.044000000 Z
+    title: BamfordStanage (3)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5cWIhzXpZxyXITKJgEupsi/d638fe477f8a130ce09ddf0615a30d53/BamfordStanage__3_-thumb.jpg"
+  - sys:
+      id: q808UJ7GVgel8uMiUPrpB
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.015000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.015000000 Z
+    title: BamfordStanage (3)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/q808UJ7GVgel8uMiUPrpB/d04bca120ab26b7cc00187f43bcbcd7c/BamfordStanage__3_-xs.webp"
+  - sys:
+      id: 6x3PcpqVTluVr7RxvdfHQZ
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.010000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.010000000 Z
+    title: BamfordStanage (3)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6x3PcpqVTluVr7RxvdfHQZ/f5cf4532148f27381647fd665d2d8d78/BamfordStanage__3_-full.webp"
+  - sys:
+      id: 5YQZ5Fa4YYW9ZKRKUVZKZm
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.006000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.006000000 Z
+    title: BamfordStanage (3)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5YQZ5Fa4YYW9ZKRKUVZKZm/0d5757c47e010b232aabf61d315bf96c/BamfordStanage__3_-full.jpg"
+  - sys:
+      id: 6uV1U7hwmrvPG9ep2aBF0i
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.000000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.000000000 Z
+    title: BamfordStanage (3)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6uV1U7hwmrvPG9ep2aBF0i/28e67078a4f4f65198f2de14e7b4d97f/BamfordStanage__3_-xs.jpg"
+- sys:
+    id: 53BIvxE12MHTjbd6sP7i1G
+    created_at: !ruby/object:DateTime 2022-03-08 11:20:20.457000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:20:20.457000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: BamfordStanage (2)
+  imgs:
+  - sys:
+      id: 5KUXfc6pRvKoTsLdnO3FeV
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.054000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.054000000 Z
+    title: BamfordStanage (2)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5KUXfc6pRvKoTsLdnO3FeV/c5e74b40585b86ef78ca1522dd743e3c/BamfordStanage__2_-xs.jpg"
+  - sys:
+      id: 10YeINckNpN9TgLNO3Pr6m
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.075000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.075000000 Z
+    title: BamfordStanage (2)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/10YeINckNpN9TgLNO3Pr6m/aae13df28f3dc6052d020dcf4495438f/BamfordStanage__2_-thumb.jpg"
+  - sys:
+      id: 5nlzpqeSUgfUbcsr2z7l1W
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.070000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.070000000 Z
+    title: BamfordStanage (2)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5nlzpqeSUgfUbcsr2z7l1W/9c404fc264051f56b8e7bb285ade790f/BamfordStanage__2_-xs.webp"
+  - sys:
+      id: 2FhBlpTfu96C9pMXLwUwVK
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.063000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.063000000 Z
+    title: BamfordStanage (2)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2FhBlpTfu96C9pMXLwUwVK/c11760ec2742bc469f9ca9d0bd9064cb/BamfordStanage__2_-full.webp"
+  - sys:
+      id: 3DRH6VI1JrvqgyiUxReT9f
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.079000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.079000000 Z
+    title: BamfordStanage (2)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/3DRH6VI1JrvqgyiUxReT9f/5fa37cd86f862eb4aa433b8a655dc625/BamfordStanage__2_-thumb.webp"
+  - sys:
+      id: 4kI2bM2Kz3nf4ZFE4i0Oj
+      created_at: !ruby/object:DateTime 2022-03-08 11:18:27.059000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:18:27.059000000 Z
+    title: BamfordStanage (2)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4kI2bM2Kz3nf4ZFE4i0Oj/0951f7e15609a9a076ee4c7562ec78f4/BamfordStanage__2_-full.jpg"
+- sys:
+    id: 5DMjNydkjYuEi1X03YS9Zd
+    created_at: !ruby/object:DateTime 2022-03-08 11:01:02.535000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-08 11:01:02.535000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: BamfordStanage (1)
+  imgs:
+  - sys:
+      id: 5I68xaX3cVyMSufWeCttLK
+      created_at: !ruby/object:DateTime 2022-03-08 10:59:14.195000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 10:59:14.195000000 Z
+    title: BamfordStanage (1)-full
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5I68xaX3cVyMSufWeCttLK/68e4a1db2d0258e688faeb7565d2bd16/BamfordStanage__1_-full.jpg"
+  - sys:
+      id: 1NefMa0HJm51q8Be0h7WX8
+      created_at: !ruby/object:DateTime 2022-03-08 10:59:36.787000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 10:59:36.787000000 Z
+    title: BamfordStanage (1)-full
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1NefMa0HJm51q8Be0h7WX8/1802b145a271c8bba5cb48f566a1854f/BamfordStanage__1_-full.webp"
+  - sys:
+      id: BrAelO0wS9IYPv61Hm2fL
+      created_at: !ruby/object:DateTime 2022-03-08 11:00:11.600000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:00:11.600000000 Z
+    title: BamfordStanage (1)-thumb
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/BrAelO0wS9IYPv61Hm2fL/b35ae92968b108e63f490502f10ac637/BamfordStanage__1_-thumb.jpg"
+  - sys:
+      id: 4D5cNhEVuTZ7GQL1u56VLr
+      created_at: !ruby/object:DateTime 2022-03-08 11:00:24.723000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:00:24.723000000 Z
+    title: BamfordStanage (1)-thumb
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4D5cNhEVuTZ7GQL1u56VLr/bc5990e4f54415676bc0d4ee028cf2a7/BamfordStanage__1_-thumb.webp"
+  - sys:
+      id: 4pUXdgkqSIFOGEfAASyvU4
+      created_at: !ruby/object:DateTime 2022-03-08 11:00:41.414000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:00:41.414000000 Z
+    title: BamfordStanage (1)-xs
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4pUXdgkqSIFOGEfAASyvU4/420af039171bfb0f11490016629d09d8/BamfordStanage__1_-xs.jpg"
+  - sys:
+      id: 3DEGeZRLY7u7Ea9WiLI2Lq
+      created_at: !ruby/object:DateTime 2022-03-08 11:00:54.704000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-08 11:00:54.704000000 Z
+    title: BamfordStanage (1)-xs
+    description: ''
+    url: "//images.ctfassets.net/jwwyx5n31g3n/3DEGeZRLY7u7Ea9WiLI2Lq/864a461ce5c778d473b8f14d260f7a71/BamfordStanage__1_-xs.webp"

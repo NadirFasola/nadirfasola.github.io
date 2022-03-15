@@ -1,35 +1,18 @@
 <div class="gallery-container">
   <ul class="gallery">
-    {% for image in page.images %}
-    <li class="gallery-item" data-filter="{{ image.filter-data }}">
-      <picture>
-        <source
-          srcset="{{ './assets/img/gallery/webp/thumbs/' | append: image.path | append: '.webp' | relative_url }}"
-        />
-        <source
-          srcset="{{ './assets/img/gallery/jpg/thumbs/' | append: image.path | append: '.jpg' | relative_url }}"
-        />
-        <img
-          src="{{ './assets/img/gallery/jpg/thumbs/' | append: image.path | append: '.jpg' | relative_url }}"
-          {%
-          if
-          image.alt
-          %}
-          alt="{{ image.alt }}"
-          {%
-          endif
-          %}
-          {%
-          if
-          image.title
-          %}
-          title="{{ image.title }}"
-          imgCaption="{{ image.caption }}"
-          {%
-          endif
-          %}
-        />
-      </picture>
+    {% for picture in site.data.contentful.spaces.NadirFasola.portofilioPicture
+    %}
+    <li class="gallery-item" data-filter="{{ picture.filters }}">
+      {% for img in picture.imgs %} {% if img.url contains "-thumb.webp" %}
+      <source srcset="{{ img.url }}" />
+      {% elsif img.url contains "-thumb.jpg" %}
+      <source srcset="{{ img.url }}" />
+      <img
+        src="{{ img.url }}"
+        alt="{{ picture.alt }}"
+        title="{{ picture.title }}"
+      />
+      {% endif %} {% endfor %}
     </li>
     {% endfor %}
   </ul>
