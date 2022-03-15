@@ -2,7 +2,15 @@
   <ul class="gallery">
     {% for picture in site.data.contentful.spaces.NadirFasola.portofilioPicture
     %}
-    <li class="gallery-item" data-filter="{{ picture.filters }}">
+    <li
+      class="gallery-item"
+      data-filter="{{ picture.filters }}"
+      {% for img in picture.imgs %}
+      {% if img.url contains "-full.jpg" %} data-fullSizeJpg="{{ img.url }}"
+      {% elsif img.url contains "-full.webp" %} data-fullSizeWebp="{{ img.url }}"
+      {% endif %}
+      {% endfor %}
+    >
       {% for img in picture.imgs %} {% if img.url contains "-thumb.webp" %}
       <source srcset="{{ img.url }}" />
       {% elsif img.url contains "-thumb.jpg" %}

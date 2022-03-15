@@ -7,11 +7,14 @@ let modalClose = document.getElementById("modal-close-btn");
 let galleryItems = document.querySelectorAll(".gallery-item");
 
 const openModal = (e) => {
-  let file = e.target.src.split("/");
-  let filename = file.pop().split(".")[0];
-  let baseFolder = file.pop();
-  console.log(file, filename, baseFolder);
-  modalImage.innerHTML = `<source class="modal-webp" srcset="../assets/img/gallery/webp/fullSize/${baseFolder}/${filename}.webp" /><source class="modal-jpg" srcset="../assets/img/gallery/jpg/fullSize/${baseFolder}/${filename}.jpg" /><img src="../assets/img/gallery/jpg/fullSize/${baseFolder}/${filename}.jpg" alt=${e.target.alt} />`;
+  console.log(e.target.parentElement.getAttribute("data-fullSizeJpg"));
+  modalImage.innerHTML = `<source class="modal-webp" srcset=${e.target.parentElement.getAttribute(
+    "data-fullSizeWebp"
+  )} /><source class="modal-jpg" srcset=${e.target.parentElement.getAttribute(
+    "data-fullSizeJpg"
+  )} /><img src=${e.target.parentElement.getAttribute(
+    "data-fullSizeJpg"
+  )} alt=${e.target.alt} />`;
   modalCaption.innerHTML = `<p>${e.target.alt}</p>`;
   modalContainer.style.display = "block";
   modalImage.getElementsByTagName("img")[0].onload = () => {
