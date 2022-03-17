@@ -21,6 +21,8 @@ contentful:
     - NadirFasola:
         space: jwwyx5n31g3n
         access_token: FY71Pb9IRMgVClVyvpUihla6PYeVCzgeDgIUSCaZ6Zo
+        cda_query:
+          limit: 1000
 
 # Social icons
 sidebar:
