@@ -39,7 +39,9 @@ const selectFilter = (e) => {
       li.children[0].classList.remove("selected");
     }
   });
+  filters = filters.filter((el) => el != null);
   e.target.classList.toggle("selected");
+  console.log(filters);
 };
 
 const filterImages = () => {
