@@ -2,39 +2,47 @@ const openSideFilters = () => {
   document.querySelector(".sideFilters").style.width =
     "clamp(250px, 40%, 600px)";
   document.querySelector(".sideFilters").style.opacity = ".9";
-  // document.querySelector(".header-portfolio").style.width =
-  // "calc(100% - clamp(250px,30%,400px))";
   document.querySelector(".portfolio-filters-hamburger-wrapper").style.opacity =
     "0";
-  // document.querySelector(".wrapper-portfolio").style.width =
-  //   "calc(100% - clamp(250px,30%,400px))";
-  // isotope.layout();
 };
 
 const closeSideFilters = () => {
   document.querySelector(".sideFilters").style.width = "0";
   document.querySelector(".sideFilters").style.opacity = "0";
-  // document.querySelector(".header-portfolio").style.width = "100%";
   document.querySelector(".portfolio-filters-hamburger-wrapper").style.opacity =
     "1";
-  // document.querySelector(".wrapper-portfolio").style.width = "100%";
-  // isotope.layout();
 };
+
+// let filters = [];
+// const selectFilter = (e) => {
+//   let fil = e.target.parentElement.getAttribute("filter");
+//   if (filters.includes(fil)) {
+//     filters = filters.filter((el) => el != fil);
+//   } else {
+//     filters.push(fil);
+//   }
+//   filters = filters.filter((el) => el != null);
+//   e.target.classList.toggle("selected");
+// };
 
 let filters = [];
 const selectFilter = (e) => {
   let fil = e.target.parentElement.getAttribute("filter");
   if (filters.includes(fil)) {
-    filters = filters.filter((el) => el != fil);
+    filters = [];
   } else {
+    filters = [];
     filters.push(fil);
   }
-  filters = filters.filter((el) => el != null);
+  document.querySelectorAll(".portfolio-filters-item").forEach((li) => {
+    if (li.children[0] !== e.target) {
+      li.children[0].classList.remove("selected");
+    }
+  });
   e.target.classList.toggle("selected");
 };
 
 const filterImages = () => {
-  console.log(filters);
   if (!filters) {
     document.querySelectorAll(".gallery-item").classList.remove("filtered");
     return;
