@@ -19,8 +19,8 @@ plugins:
 contentful:
   spaces:
     - NadirFasola:
-        space: jwwyx5n31g3n
-        access_token: FY71Pb9IRMgVClVyvpUihla6PYeVCzgeDgIUSCaZ6Zo
+        space: ENV_CONTENTFUL_SPACE_ID
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN
         cda_query:
           limit: 1000
 
