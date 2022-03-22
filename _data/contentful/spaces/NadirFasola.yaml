@@ -1,6 +1,318 @@
 ---
 portofilioPicture:
 - sys:
+    id: 1AXgnCPZrQfdvHKUIOipJN
+    created_at: !ruby/object:DateTime 2022-03-22 10:51:01.666000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:51:01.666000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (14)
+  imgs:
+  - sys:
+      id: 2wSq4dM5OTGMknd4tZYPCy
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.661000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.661000000 Z
+    title: Como (14)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2wSq4dM5OTGMknd4tZYPCy/11fa7d4f82a7146272d6deda6a54c45a/Como__14_-full.jpg"
+  - sys:
+      id: 2en24V0rzJq6OvVEuSJTBO
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.624000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.624000000 Z
+    title: Como (14)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2en24V0rzJq6OvVEuSJTBO/ce82dac7fa7fe80396e730d17430010e/Como__14_-xs.jpg"
+  - sys:
+      id: 2ytLUg6SKt51j912dlE8NH
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.598000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.598000000 Z
+    title: Como (14)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2ytLUg6SKt51j912dlE8NH/a64cbcadd6c5fc4340f11212b43253e2/Como__14_-thumb.webp"
+  - sys:
+      id: 5cU0pzDjMjYZZxUWzv0ERA
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.604000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.604000000 Z
+    title: Como (14)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5cU0pzDjMjYZZxUWzv0ERA/f52dc820ebfb88bba19b4af2af8d126d/Como__14_-full.webp"
+  - sys:
+      id: 2gErSlambzWtElglFaAleB
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.614000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.614000000 Z
+    title: Como (14)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2gErSlambzWtElglFaAleB/77feafa40a47d2e03a3e6b5411a44f95/Como__14_-thumb.jpg"
+  - sys:
+      id: 1xiAOaHodzBQUqThHbd9Dj
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.619000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.619000000 Z
+    title: Como (14)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1xiAOaHodzBQUqThHbd9Dj/8e5134c6401b4c34099c14220265ec53/Como__14_-xs.webp"
+  alt: Porta Torre, Como
+  filters: Como, SomewhereInItaly
+- sys:
+    id: jbh3RA1gYU5DEOa9RmDRP
+    created_at: !ruby/object:DateTime 2022-03-22 10:50:32.907000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:50:32.907000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (13)
+  imgs:
+  - sys:
+      id: 2CJBPj46kmjsj2y1IVMh2g
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.698000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.698000000 Z
+    title: Como (13)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2CJBPj46kmjsj2y1IVMh2g/b785597e52bdc4d6f9478097c0864519/Como__13_-full.jpg"
+  - sys:
+      id: 70O2Ngdug3iRMpYxGwQ9V3
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.648000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.648000000 Z
+    title: Como (13)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/70O2Ngdug3iRMpYxGwQ9V3/ee6967e6122de9c3b8c7717e19111810/Como__13_-full.webp"
+  - sys:
+      id: 6Q1YAvYp32mFCulcL9DOuD
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.654000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.654000000 Z
+    title: Como (13)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6Q1YAvYp32mFCulcL9DOuD/17c5c74cf3cbe8f21d97187689075bf4/Como__13_-thumb.jpg"
+  - sys:
+      id: LGGVLX1WjrteuPK2u2Gqa
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.639000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.639000000 Z
+    title: Como (13)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/LGGVLX1WjrteuPK2u2Gqa/afc8eeb6b3e313cddbdce672487dab0b/Como__13_-thumb.webp"
+  - sys:
+      id: 3qvejn2khFAdzCYCZsYfHB
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.634000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.634000000 Z
+    title: Como (13)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/3qvejn2khFAdzCYCZsYfHB/1c16dc28aa6018c2f9b74f2f3fb1782d/Como__13_-xs.webp"
+  - sys:
+      id: 303VzzCrM60KC4tpsU6t1b
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.630000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.630000000 Z
+    title: Como (13)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/303VzzCrM60KC4tpsU6t1b/d23f0a431219f563873bdb92d330e70b/Como__13_-xs.jpg"
+  alt: S. Fedele, Como
+  filters: Como SomewhereInItaly
+- sys:
+    id: 2qUJxJdWmQQ8YJTbnoNh4j
+    created_at: !ruby/object:DateTime 2022-03-22 10:50:01.201000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:50:01.201000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (12)
+  imgs:
+  - sys:
+      id: 4QaLXyy8IXaflRUWKnOd8K
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.718000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.718000000 Z
+    title: Como (12)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4QaLXyy8IXaflRUWKnOd8K/a6eb6de0d8d7baafd7898ce4cdda9e9a/Como__12_-thumb.webp"
+  - sys:
+      id: 6iDKG3hW2LWY2wIpuaLiQa
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.714000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.714000000 Z
+    title: Como (12)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6iDKG3hW2LWY2wIpuaLiQa/901295d955f535530191bc17fde93c77/Como__12_-xs.webp"
+  - sys:
+      id: kKjlWP44NSk87Tq6tth8c
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.693000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.693000000 Z
+    title: Como (12)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/kKjlWP44NSk87Tq6tth8c/31658ade4e5e5d6c3cb26103d6829ae2/Como__12_-full.webp"
+  - sys:
+      id: jXjrq2EuiGWqoHRXMLZtQ
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.703000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.703000000 Z
+    title: Como (12)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/jXjrq2EuiGWqoHRXMLZtQ/6c6bc0129d5a2c777a1fe14eb4e2526c/Como__12_-full.jpg"
+  - sys:
+      id: hMwg75SkEfm7Ii3HpUN8k
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.708000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.708000000 Z
+    title: Como (12)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/hMwg75SkEfm7Ii3HpUN8k/5e41891e59cea4141e79b5f80c24160f/Como__12_-xs.jpg"
+  - sys:
+      id: 1KayXIPdSRZosTCMo6Ak8D
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.666000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.666000000 Z
+    title: Como (12)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1KayXIPdSRZosTCMo6Ak8D/d195ef9664ac0b49dfe8de91b3279657/Como__12_-thumb.jpg"
+  alt: Como Lakefront
+  filters: Como SomewhereInItaly
+- sys:
+    id: 1Ai7hsRz2OE0IO1mWnfHEY
+    created_at: !ruby/object:DateTime 2022-03-22 10:49:32.965000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:49:32.965000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (11)
+  imgs:
+  - sys:
+      id: 6sPPCImWV3u5Qr612XgtdP
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.755000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.755000000 Z
+    title: Como (11)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/6sPPCImWV3u5Qr612XgtdP/cdff611f5a945729ec75192a97d697ae/Como__11_-full.jpg"
+  - sys:
+      id: 2OvUxbPvNWoCyRgtN9NhPq
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.737000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.737000000 Z
+    title: Como (11)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2OvUxbPvNWoCyRgtN9NhPq/916635ebb87f4f27f42a02ffef4d81bf/Como__11_-thumb.webp"
+  - sys:
+      id: 51EywbXPTfpP9oUI7LdzBt
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.741000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.741000000 Z
+    title: Como (11)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/51EywbXPTfpP9oUI7LdzBt/1fca4a95d2b2ffdcc3efd3c48efdf58b/Como__11_-xs.jpg"
+  - sys:
+      id: 57CwAqJI9QM0hd9A3vBV25
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.732000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.732000000 Z
+    title: Como (11)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/57CwAqJI9QM0hd9A3vBV25/208b116a3f74f0ec241ecc4fb198e85f/Como__11_-thumb.jpg"
+  - sys:
+      id: 1hdX58hOE9BfMlX5OjbZpu
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.723000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.723000000 Z
+    title: Como (11)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/1hdX58hOE9BfMlX5OjbZpu/285e7b8867841721e4f886e53736af7b/Como__11_-full.webp"
+  - sys:
+      id: 01xgGRpuk9jXCaqOQGfNhr
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.728000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.728000000 Z
+    title: Como (11)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/01xgGRpuk9jXCaqOQGfNhr/955a2bf6a4c04284e018bb8d1ed31576/Como__11_-xs.webp"
+  alt: Como Cathedral and Theatre
+  filters: Como SomewhereInItaly
+- sys:
+    id: f8E27jSoED2yk9I6QTMge
+    created_at: !ruby/object:DateTime 2022-03-22 10:48:45.768000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:48:45.768000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (10)
+  imgs:
+  - sys:
+      id: U03i3sFHTnlJOezFbCKue
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.746000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.746000000 Z
+    title: Como (10)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/U03i3sFHTnlJOezFbCKue/66514e87cb5deea4716f50c479f32050/Como__10_-xs.jpg"
+  - sys:
+      id: 622UlJesKnX244fLQnJbZr
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.750000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.750000000 Z
+    title: Como (10)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/622UlJesKnX244fLQnJbZr/cf88e9fa3f95ebd36ff062a82f008d89/Como__10_-thumb.webp"
+  - sys:
+      id: 5EjWDhtuDteeU8ih1U8XH4
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.759000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.759000000 Z
+    title: Como (10)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5EjWDhtuDteeU8ih1U8XH4/80c0ceaa09f931e77a5c2771b16989fc/Como__10_-full.webp"
+  - sys:
+      id: 2fvMuJ8cm3Y7Qsj2R2nfZD
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.764000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.764000000 Z
+    title: Como (10)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2fvMuJ8cm3Y7Qsj2R2nfZD/04a682d0619934c5a52c4ddb28a3bf77/Como__10_-xs.webp"
+  - sys:
+      id: 3K7ltOlbGCGQDzLLd8cwHe
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.768000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.768000000 Z
+    title: Como (10)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/3K7ltOlbGCGQDzLLd8cwHe/a985d59f7bf8a794c084d9e7c474188e/Como__10_-thumb.jpg"
+  - sys:
+      id: 5b4h3hydIXrsihOtf1B7EX
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.814000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.814000000 Z
+    title: Como (10)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5b4h3hydIXrsihOtf1B7EX/0277bd526ebb713e1b80ea8d2e6de31e/Como__10_-full.jpg"
+  alt: Tempio Voltiano, Como
+  filters: Como SomewhereInItaly
+- sys:
+    id: 406NtTNfRzCg0rzxwls6lu
+    created_at: !ruby/object:DateTime 2022-03-22 10:47:36.006000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 10:47:36.006000000 Z
+    content_type_id: portofilioPicture
+    revision: 1
+  filename: Como (9)
+  imgs:
+  - sys:
+      id: 2DKyNZSHnNb03hnZlBYS6U
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.832000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.832000000 Z
+    title: Como (9)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/2DKyNZSHnNb03hnZlBYS6U/3e55ff84fc8d9cc27f404b7a7371b8ce/Como__9_-full.jpg"
+  - sys:
+      id: 5iTyTLU0FOjVy2TBgei7rS
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.822000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.822000000 Z
+    title: Como (9)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/5iTyTLU0FOjVy2TBgei7rS/e53edfba47db90c428cdfa9361519981/Como__9_-thumb.webp"
+  - sys:
+      id: J0fUXUHC2aae85qO2wD10
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.809000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.809000000 Z
+    title: Como (9)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/J0fUXUHC2aae85qO2wD10/862e077425768f0aeb509d6f03e8b758/Como__9_-xs.jpg"
+  - sys:
+      id: 58PZ8kXCElT3Wd18a4cpBz
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.802000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.802000000 Z
+    title: Como (9)-thumb
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/58PZ8kXCElT3Wd18a4cpBz/c933a6ba4794d93bd461a7c604ad15b1/Como__9_-thumb.jpg"
+  - sys:
+      id: 4Q4CLjLjS2tfm9uVS0YcDO
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.797000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.797000000 Z
+    title: Como (9)-full
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/4Q4CLjLjS2tfm9uVS0YcDO/90e2538043106f8b0646511b79391174/Como__9_-full.webp"
+  - sys:
+      id: RBluZzd9imNet8NVwUg5E
+      created_at: !ruby/object:DateTime 2022-03-22 10:47:48.792000000 Z
+      updated_at: !ruby/object:DateTime 2022-03-22 10:47:48.792000000 Z
+    title: Como (9)-xs
+    description: 
+    url: "//images.ctfassets.net/jwwyx5n31g3n/RBluZzd9imNet8NVwUg5E/0fb1288985088ab3882b67736fb54349/Como__9_-xs.webp"
+  alt: Tempio Voltiano, Como
+  filters: Como SomewhereInItaly
+- sys:
     id: 7utdF3OieE4NHtZwDmQzUD
     created_at: !ruby/object:DateTime 2022-03-17 11:54:14.748000000 Z
     updated_at: !ruby/object:DateTime 2022-03-17 11:54:14.748000000 Z
