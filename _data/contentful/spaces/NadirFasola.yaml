@@ -3,9 +3,9 @@ portofilioPicture:
 - sys:
     id: 1AXgnCPZrQfdvHKUIOipJN
     created_at: !ruby/object:DateTime 2022-03-22 10:51:01.666000000 Z
-    updated_at: !ruby/object:DateTime 2022-03-22 10:51:01.666000000 Z
+    updated_at: !ruby/object:DateTime 2022-03-22 14:38:38.938000000 Z
     content_type_id: portofilioPicture
-    revision: 1
+    revision: 2
   filename: Como (14)
   imgs:
   - sys:
@@ -51,7 +51,7 @@ portofilioPicture:
     description: 
     url: "//images.ctfassets.net/jwwyx5n31g3n/1xiAOaHodzBQUqThHbd9Dj/8e5134c6401b4c34099c14220265ec53/Como__14_-xs.webp"
   alt: Porta Torre, Como
-  filters: Como, SomewhereInItaly
+  filters: Como SomewhereInItaly
 - sys:
     id: jbh3RA1gYU5DEOa9RmDRP
     created_at: !ruby/object:DateTime 2022-03-22 10:50:32.907000000 Z
