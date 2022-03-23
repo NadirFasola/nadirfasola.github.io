@@ -13,18 +13,6 @@ const closeSideFilters = () => {
     "1";
 };
 
-// let filters = [];
-// const selectFilter = (e) => {
-//   let fil = e.target.parentElement.getAttribute("filter");
-//   if (filters.includes(fil)) {
-//     filters = filters.filter((el) => el != fil);
-//   } else {
-//     filters.push(fil);
-//   }
-//   filters = filters.filter((el) => el != null);
-//   e.target.classList.toggle("selected");
-// };
-
 let filters = [];
 const selectFilter = (e) => {
   let fil = e.target.parentElement.getAttribute("filter");
@@ -41,23 +29,43 @@ const selectFilter = (e) => {
   });
   filters = filters.filter((el) => el != null);
   e.target.classList.toggle("selected");
-  console.log(filters);
 };
 
 const filterImages = () => {
-  if (!filters) {
-    document.querySelectorAll(".gallery-item").classList.remove("filtered");
-    return;
-  }
-  document.querySelectorAll(".gallery-item").forEach((item) => {
-    let dataFilters = item.getAttribute("data-filter").split(" ");
-    const isContained = (x) => dataFilters.includes(x);
-    if (!filters.every(isContained)) {
-      item.classList.add("filtered");
-    } else {
-      item.classList.remove("filtered");
+  if (filters.length === 0) {
+    let favsTitle = document.createElement("h1");
+    let text = document.createTextNode(
+      "Some of my favourite shots (in no particular order)"
+    );
+    favsTitle.classList.add("favsTitle");
+    favsTitle.appendChild(text);
+    document
+      .querySelector(".gallery-container")
+      .insertBefore(favsTitle, document.querySelector(".gallery"));
+    document.querySelectorAll(".gallery-item").forEach((item) => {
+      let dataFilters = item.getAttribute("data-filter").split(" ");
+      const isContained = (x) => dataFilters.includes(x);
+      if (!isContained("favs")) {
+        item.classList.add("filtered");
+      } else {
+        item.classList.remove("filtered");
+      }
+    });
+  } else {
+    let favsTitle = document.querySelector(".favsTitle");
+    if (favsTitle) {
+      document.querySelector(".gallery-container").removeChild(favsTitle);
     }
-  });
+    document.querySelectorAll(".gallery-item").forEach((item) => {
+      let dataFilters = item.getAttribute("data-filter").split(" ");
+      const isContained = (x) => dataFilters.includes(x);
+      if (!filters.every(isContained)) {
+        item.classList.add("filtered");
+      } else {
+        item.classList.remove("filtered");
+      }
+    });
+  }
 };
 
 const filter = (e) => {
@@ -68,3 +76,7 @@ const filter = (e) => {
 document.querySelectorAll(".portfolio-filters-item").forEach((item) => {
   item.addEventListener("click", filter);
 });
+
+window.onload = () => {
+  filterImages();
+};

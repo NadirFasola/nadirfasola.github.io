@@ -557,6 +557,11 @@ footer {
   width: 100%;
   margin: auto;
 
+  .favsTitle {
+    text-align: right;
+    font-style: italic;
+  }
+
   .gallery {
     $base-unit: 320px;
 

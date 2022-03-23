@@ -1,6 +1,6 @@
 <div class="gallery-container">
   <ul class="gallery">
-    {% assign pictures = site.data.contentful.spaces.NadirFasola.portofilioPicture | reverse %}
+    {% assign pictures = site.data.contentful.spaces.NadirFasola.portofilioPicture | sort: "filename" %}
     {% for picture in pictures %}
     <li
       class="gallery-item"
