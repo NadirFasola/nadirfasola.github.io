@@ -8,7 +8,7 @@ description: My personal website
 baseurl: ""
 url: ""
 show_downloads: false
-google_analytics: false
+google_analytics: G-W9PTS9XZ2E
 color-scheme: auto
 plugins:
   - jekyll-sitemap
