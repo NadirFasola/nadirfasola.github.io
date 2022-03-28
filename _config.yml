@@ -6,14 +6,15 @@ logoSurname: Fasola
 email: n.fasola@sheffield.ac.uk
 description: My personal website
 baseurl: ""
-url: ""
+url: "https://nadirfasola.github.io"
 show_downloads: false
 google_analytics: G-W9PTS9XZ2E
 color-scheme: auto
 plugins:
+  - jemoji
+  - jekyll-contentful-data-import
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jemoji
 
 # Contenful integration
 contentful:
