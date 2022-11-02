@@ -172,6 +172,18 @@ title: CV
 <h2 style="text-align:right"><em>Conferences</em></h2>
 <table>
     <tr>
+        <td><strong>September 2022</strong></td>
+        <td><em>BPS 2022. BPS states, mirror symmetry, and exact WKB II,</em> The University of Sheffield</td>
+    </tr>
+    <tr>
+        <td><strong>May 2022</strong></td>
+        <td><em>Strings and geometry 2022,</em> Utrecht University</td>
+    </tr>
+    <tr>
+        <td><strong>April 2022</strong></td>
+        <td><em>Mirrors, Moduli and M-Theory in the Midlands,</em> The University of Birmingham</td>
+    </tr>
+    <tr>
         <td><strong>September 2021</strong></td>
         <td><em>XI Workshop on Geometric Correspondences of Gauge Theories,</em> SISSA, Trieste</td>
     </tr>
