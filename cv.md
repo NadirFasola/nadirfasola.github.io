@@ -284,7 +284,7 @@ title: CV
 </div>
 </div>
 
-<!-- <div class="cv-section">
+<div class="cv-section">
 <h1>Awards/Scholarships</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section">
 <table>
@@ -312,6 +312,6 @@ title: CV
 <h1>Foreign Language Skills</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section">
 </div>
-</div> -->
+</div>
 
 <script src="{{ '/assets/js/accordion-cv.js' | relative_url }}" defer></script>
