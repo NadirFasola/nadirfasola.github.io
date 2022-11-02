@@ -278,7 +278,7 @@ title: CV
     </tr>
     <tr>
     <td></td>
-    <td>Co-organised together with <a href="https://nikolaev.staff.shef.ac.uk/" target="_blank">Nikita Nikolaev</a></td>
+    <td>Co-organised together with <a href="https://sites.google.com/view/nikita-nikolaev/home" target="_blank">Nikita Nikolaev</a></td>
     </tr>
     <tr class="tr-no-bottom-space">
         <td><strong>5-9 Sep. 2022</strong></td>
@@ -290,7 +290,7 @@ title: CV
     </tr>
     <tr>
     <td></td>
-    <td>Co-organised together with Andrea Brini, <a href="https://nikolaev.staff.shef.ac.uk/" target="_blank">Nikita Nikolaev</a> and Tom Bridgeland</td>
+    <td>Co-organised together with Andrea Brini, <a href="https://sites.google.com/view/nikita-nikolaev/home" target="_blank">Nikita Nikolaev</a> and Tom Bridgeland</td>
     </tr>
 </table>
 </div>
