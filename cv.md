@@ -112,6 +112,22 @@ title: CV
 <h2 style="text-align:right"><em>Talks</em></h2>
 <table>
     <tr class="tr-no-bottom-space">
+        <td><strong>July 11, 2022</strong></td>
+        <td><em>8d ADHM construction and (non-commutative) orbifold DT invariants</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>The University of Sheffield, Sheffield &mdash; 2022 Summer Seminar</td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+        <td><strong>April 25, 2022</strong></td>
+        <td><em>Surface defects in Vafa-Witten theory and flags of sheaves on the projective plane</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>The University of Sheffield, Sheffield &mdash; <a href="https://agmp.sites.sheffield.ac.uk/seminars/past-seminars/the-sheffield-geometry-and-physics-seminar-202122">SGaPS</a></td>
+    </tr>
+    <tr class="tr-no-bottom-space">
         <td><strong>December 21, 2020</strong></td>
         <td><a href="https://www.youtube.com/watch?v=34HBLlTF8F8" target="_blank"><em>Eight-dimensional ADHM construction and orbifold DT invariants</em></a></td>
     </tr>
