@@ -258,7 +258,7 @@ title: CV
 <table>
     <tr class="tr-no-bottom-space">
         <td><strong>2021-2022</strong></td>
-        <td><a href="http://alg-geom.group.shef.ac.uk/seminars/SGaPS/" target="_blank"><em>The Sheffield Geometry and Physics Seminar</em></a></td>
+        <td><a href="https://agmp.sites.sheffield.ac.uk/seminars/past-seminars/the-sheffield-geometry-and-physics-seminar-202122" target="_blank"><em>The Sheffield Geometry and Physics Seminar</em></a></td>
     </tr>
     <tr class="tr-no-bottom-space">
     <td></td>
@@ -270,7 +270,7 @@ title: CV
     </tr>
     <tr class="tr-no-bottom-space">
         <td><strong>5-9 Sep. 2022</strong></td>
-        <td><a href="http://alg-geom.group.shef.ac.uk/bps2022/" target="_blank"><em>BPS states, mirror symmetry, and exact WKB II</em></a></td>
+        <td><a href="https://agmp.sites.sheffield.ac.uk/conferences/bps-2022" target="_blank"><em>BPS states, mirror symmetry, and exact WKB II</em></a></td>
     </tr>
     <tr class="tr-no-bottom-space">
     <td></td>
