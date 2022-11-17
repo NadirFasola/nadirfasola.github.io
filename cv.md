@@ -112,6 +112,14 @@ title: CV
 <h2 style="text-align:right"><em>Talks</em></h2>
 <table>
     <tr class="tr-no-bottom-space">
+        <td><strong>November 18, 2022</strong></td>
+        <td><em>Surface defects in Vafa-Witten theory and flags of sheaves on the projective plane</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>The University of Alberta, Edmonton &mdash; Geometry, Algebra and Physics Seminar</td>
+    </tr>
+    <tr class="tr-no-bottom-space">
         <td><strong>July 11, 2022</strong></td>
         <td><em>8d ADHM construction and (non-commutative) orbifold DT invariants</em></td>
     </tr>
