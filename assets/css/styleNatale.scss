@@ -1,0 +1,293 @@
+---
+---
+
+@import url("https://use.typekit.net/arw6eqb.css");
+@import url("https://use.typekit.net/foh1ktu.css");
+
+$card-background: rgb(255, 247, 229);
+$card-redBright: rgb(190, 24, 38);
+$card-redDark: rgb(119, 22, 24);
+$card-blue: rgb(26, 122, 154);
+$card-gold: rgb(233, 174, 55);
+$card-GreyLight: rgb(202, 197, 190);
+$card-GreyDark: darken(rgb(152, 150, 144), 20%);
+
+$card-size: 512px;
+$front-card-margin-left: 3.5em;
+$card-margin-left: $card-size * 5 / 140;
+$card-footer-height: $card-size * 4 / 14;
+$front-card-margin-top: 1.25em;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nataleWrapper {
+  width: 100%;
+  min-width: $card-size;
+  min-height: 100vh;
+  padding-top: 2em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .cardWrapper {
+    margin: 0 auto;
+    width: $card-size;
+    height: $card-size;
+
+    .christmasCardBorder {
+      width: $card-size;
+      height: $card-size;
+      background-color: $card-GreyDark;
+      clip-path: polygon(
+        0 4%,
+        4% 0,
+        96% 0,
+        100% 4%,
+        100% 96%,
+        96% 100%,
+        4% 100%,
+        0% 96%,
+        0% 4%
+      );
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .christmasCard {
+        position: relative;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        clip-path: polygon(
+          0 4%,
+          4% 0,
+          96% 0,
+          100% 4%,
+          100% 96%,
+          96% 100%,
+          4% 100%,
+          0% 96%,
+          0% 4%
+        );
+        overflow: hidden;
+        background-color: $card-background;
+
+        &::before {
+          content: "";
+        }
+
+        &::after {
+          content: "";
+          width: 100%;
+          height: $card-footer-height;
+          background-color: $card-redBright;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: -1;
+        }
+
+        &#frontCard {
+          padding: $front-card-margin-top 0 0 $front-card-margin-left;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          &::before {
+            content: "";
+            width: $card-margin-left;
+            height: calc(100% * 10 / 14);
+            background: repeating-linear-gradient(
+              45deg,
+              $card-redBright 0%,
+              $card-redBright 4%,
+              transparent 4%,
+              transparent 8%
+            );
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+
+          .train-icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-image: url("{{'/assets/img/train.svg'}}");
+            width: 1.4 * 128px;
+            height: 1.4 * 150px;
+          }
+
+          .boardingPass {
+            font-family: antarctican-headline, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.75em;
+            letter-spacing: 0.25em;
+            padding: 0.1em 0.75em 0.15em 0.75em;
+            background-color: $card-GreyDark;
+            color: $card-background;
+            width: fit-content;
+            transform: scaleY(0.95);
+          }
+
+          .destination {
+            display: flex;
+            .location {
+              font-family: acumin-pro-wide, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              color: $card-blue;
+              font-size: 1.2em;
+            }
+            .doubleArrow {
+              font-family: acumin-pro-wide, sans-serif;
+              font-weight: 700;
+              font-style: normal;
+              color: $card-GreyDark;
+              font-size: 1.5em;
+              margin-top: -0.25em;
+              padding: 0 0.5em;
+            }
+          }
+
+          .getaway {
+            font-family: acumin-pro-wide, sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 2.5em;
+            letter-spacing: 0.125em;
+            line-height: 1.15em;
+            color: $card-GreyDark;
+          }
+
+          .when {
+            display: flex;
+            flex-wrap: wrap;
+            .whenWrapper {
+              width: 47%;
+              height: 3em;
+              .data {
+                font-family: acumin-pro-wide, sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                color: $card-blue;
+                margin-bottom: -0.25em;
+              }
+              .description {
+                font-family: antarctican-headline, sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: 0.1em;
+                color: $card-GreyLight;
+                transform: scaleY(0.9);
+              }
+            }
+          }
+
+          .spacer {
+            width: 100%;
+            height: calc(100% * 4 / 14);
+          }
+
+          .barcode {
+            position: absolute;
+            left: $card-margin-left;
+            bottom: 0;
+            width: fit-content;
+            height: $card-footer-height;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .barcode-svg {
+              width: 220px;
+              height: 70px;
+              background-image: url("/assets/img/barcode.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+            }
+            .scanMe {
+              width: fit-content;
+              margin: 0 auto;
+              font-family: acumin-pro-wide, sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 0.6em;
+              letter-spacing: 0.8em;
+              color: $card-background;
+            }
+          }
+
+          .footerInfo {
+            position: absolute;
+            bottom: 0;
+            right: $card-margin-left;
+            color: $card-background;
+            height: $card-footer-height;
+            text-align: right;
+            font-family: acumin-pro-wide, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 0.8em;
+            letter-spacing: 0.05em;
+            line-height: 1.2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            hr {
+              width: 100%;
+              height: 1.5px;
+              margin: 1em 0;
+            }
+          }
+        }
+
+        &#backCard {
+          &::before {
+            content: "";
+            width: calc(100% * 5 / 140);
+            height: calc(100% * 10 / 14);
+            background: repeating-linear-gradient(
+              -45deg,
+              $card-redBright 0%,
+              $card-redBright 4%,
+              transparent 4%,
+              transparent 8%
+            );
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .more {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    font-family: la-bohemienne, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0;
+
+    .moreInfo {
+      font-size: 5em;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}
