@@ -263,7 +263,8 @@ title: CV
 <h1>Publications/Preprints</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section">
 <ul>
-<li>G. Bonelli, N. Fasola, A. Tanzini and Y. Zenkevich, <em>ADHM in 8d, coloured solid partitions and Donaldson-Thomas invariants on orbifolds</em>, <a href="https://arxiv.org/abs/2011.02366" target="_blank" style="font-family: monospace">arXiv:2011.02366</a></li>
+<li>N. Fasola and S. Monavari, <em>Tetrahedron instantons in Donaldson-Thomas theory</em>, <a href="https://arxiv.org/abs/2306.07145" target="_blank" style="font-family: monospace">arXiv:2306.07145</a></li>
+<li>G. Bonelli, N. Fasola, A. Tanzini and Y. Zenkevich, <em>ADHM in 8d, coloured solid partitions and Donaldson-Thomas invariants on orbifolds</em>, accepted for publication in J. Geom. Phys., <a href="https://arxiv.org/abs/2011.02366" target="_blank" style="font-family: monospace">arXiv:2011.02366</a></li>
 <li>N. Fasola, S. Monavari and A. T. Ricolfi, <em>Higher rank K-theoretic Donaldson-Thomas theory of points</em>, <em>Forum of Mathematics, Sigma, 9,</em> E15. <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/higher-rank-ktheoretic-donaldsonthomas-theory-of-points/055625F8F080C8121C0E2D99DC413E1E" target="_blank" style="font-family: monospace">doi:10.1017/fms.2021.4</a></li>
 <li>G. Bonelli, N. Fasola and A. Tanzini, <em>Flags of sheaves, quivers and symmetric polynomials</em>, <a href="https://arxiv.org/abs/1911.12787" target="_blank" style="font-family: monospace">arXiv:1911.12787</a></li>
 <li>G. Bonelli, N. Fasola and A. Tanzini, <em>Defects, nested instantons and comet shaped quivers</em>, <em>Lett. Math. Phys.</em> <strong>111,</strong> 34 (2021). <a href="https://doi.org/10.1007/s11005-021-01366-5" target="_blank" style="font-family: monospace">doi:10.1007/s11005-021-01366-5</a></li>
