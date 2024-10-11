@@ -21,19 +21,19 @@ title: CV
     </tr>
     <tr>
         <td>Work address:</td>
-        <td>Office K16, School of Mathematics and Statistics</td>
+        <td>Room 547, Main SISSA Building</td>
     </tr>
     <tr>
         <td></td>
-        <td>The University of Sheffield</td>
+        <td>International School for Advanced Studies (SISSA)</td>
     </tr>
     <tr>
         <td></td>
-        <td>Hicks Building, Hounsfield Rd</td>
+        <td>Via Bonomea, 265</td>
     </tr>
     <tr>
         <td></td>
-        <td>Sheffield, S3 7RH</td>
+        <td>34136 Trieste (TS), Italy</td>
     </tr>
 </table>
 </div>
@@ -44,7 +44,21 @@ title: CV
 <div class="cv-wrapper-section">
 <div class="employment-card current">
 <div>
-    <span><h2>The University of Sheffield</h2><p>September 2021 - Current</p></span>
+    <span><h2>SISSA</h2><p>September 2024 - Current</p></span>
+    <p>Postdoctoral Researcher</p>
+    <p>Geometry and Mathematical Physics group<br/>Mathematics Area</p>
+    <p><strong>Advisor:</strong> <em>Ugo Bruzzo</em></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="cv-section">
+<h1>Employment</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
+<div class="cv-wrapper-section">
+<div class="employment-card last">
+<div>
+    <span><h2>The University of Sheffield</h2><p>September 2021 - April 2024</p></span>
     <p>Postdoctoral Research Associate</p>
     <p>Algebraic Geometry and Mathematical Physics group<br/>School of Mathematics and Statistics</p>
     <p><strong>Advisor:</strong> <em>Andrea Brini</em></p>
@@ -56,7 +70,7 @@ title: CV
 <div class="cv-section">
 <h1>Education</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section collapsed">
-<div class="employment-card last">
+<div class="employment-card past">
 <div>
     <span><h2>SISSA</h2><p>September 2016 - December 2020</p></span>
     <p>PhD in Geometry and Mathematical Physics<br/>Mathematics Area</p>
@@ -111,6 +125,30 @@ title: CV
 
 <h2 style="text-align:right"><em>Talks</em></h2>
 <table>
+    <tr class="tr-no-bottom-space">
+        <td><strong>September, 2024</strong></td>
+        <td><em>Tetrahedron Instantons via Donaldson-Thomas theory</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>EPFL, Lausanne &mdash; Duality, Geometry and Physics</td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+        <td><strong>May, 2024</strong></td>
+        <td><em>Tetrahedron Instantons via Donaldson-Thomas theory</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Levico Terme, Italy &mdash; The Geometry of Hilbert schemes of points</td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+        <td><strong>February 12, 2024</strong></td>
+        <td><em>Tetrahedron Instantons via Donaldson-Thomas theory</em></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Swansea University, Swansea &mdash; Applied Algebra and Geometry, 18th Meeting</td>
+    </tr>
     <tr class="tr-no-bottom-space">
         <td><strong>November 18, 2022</strong></td>
         <td><em>Surface defects in Vafa-Witten theory and flags of sheaves on the projective plane</em></td>
@@ -179,6 +217,38 @@ title: CV
 
 <h2 style="text-align:right"><em>Conferences</em></h2>
 <table>
+    <tr>
+        <td><strong>September 2024</strong></td>
+        <td><em>Duality, Geometry and Physics,</em> EPFL</td>
+    </tr>
+    <tr>
+        <td><strong>May 2024</strong></td>
+        <td><em>The geometry of Hilbert schemes of points,</em> Levico Terme</td>
+    </tr>
+    <tr>
+        <td><strong>September 2023</strong></td>
+        <td><em>UK Algebraic Geometry Network Inaugural Conference,</em> The University of Nottingham</td>
+    </tr>
+    <tr>
+        <td><strong>September 2023</strong></td>
+        <td><em>Categorified Enumerative geometry and Representation Theory,</em> EPFL</td>
+    </tr>
+    <tr>
+        <td><strong>June 2023</strong></td>
+        <td><em>XIII Workshop on Geometric Correspondences of Gauge Theories,</em> SISSA</td>
+    </tr>
+    <tr>
+        <td><strong>May 2023</strong></td>
+        <td><em>Refined invariants in moduli theory,</em> SISSA</td>
+    </tr>
+    <tr>
+        <td><strong>February 2023</strong></td>
+        <td><em>Moduli spaces: theory and coding,</em> Les Diablerets</td>
+    </tr>
+    <tr>
+        <td><strong>December 2022</strong></td>
+        <td><em>Stavanger Geometry Julem&oslash;te,</em> The University of Stavanger</td>
+    </tr>
     <tr>
         <td><strong>September 2022</strong></td>
         <td><em>BPS 2022. BPS states, mirror symmetry, and exact WKB II,</em> The University of Sheffield</td>
@@ -263,10 +333,10 @@ title: CV
 <h1>Publications/Preprints</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section">
 <ul>
+<li>G. Bonelli, N. Fasola and A. Tanzini, <em>Flags of sheaves, quivers and symmetric polynomials</em>, <em>Forum of Mathematics, Sigma, 12,</em> E74. <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/higher-rank-ktheoretic-donaldsonthomas-theory-of-points/055625F8F080C8121C0E2D99DC413E1E" target="_blank" style="font-family: monospace">doi:10.1017/fms.2024.43</a></li>
 <li>N. Fasola and S. Monavari, <em>Tetrahedron instantons in Donaldson-Thomas theory</em>, <a href="https://arxiv.org/abs/2306.07145" target="_blank" style="font-family: monospace">arXiv:2306.07145</a></li>
 <li>G. Bonelli, N. Fasola, A. Tanzini and Y. Zenkevich, <em>ADHM in 8d, coloured solid partitions and Donaldson-Thomas invariants on orbifolds</em>, J. Geom. Phys. (2023), <a href="https://doi.org/10.1016/j.geomphys.2023.104910" target="_blank" style="font-family: monospace">doi:10.1016/j.geomphys.2023.104910</a></li>
 <li>N. Fasola, S. Monavari and A. T. Ricolfi, <em>Higher rank K-theoretic Donaldson-Thomas theory of points</em>, <em>Forum of Mathematics, Sigma, 9,</em> E15. <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/higher-rank-ktheoretic-donaldsonthomas-theory-of-points/055625F8F080C8121C0E2D99DC413E1E" target="_blank" style="font-family: monospace">doi:10.1017/fms.2021.4</a></li>
-<li>G. Bonelli, N. Fasola and A. Tanzini, <em>Flags of sheaves, quivers and symmetric polynomials</em>, <a href="https://arxiv.org/abs/1911.12787" target="_blank" style="font-family: monospace">arXiv:1911.12787</a></li>
 <li>G. Bonelli, N. Fasola and A. Tanzini, <em>Defects, nested instantons and comet shaped quivers</em>, <em>Lett. Math. Phys.</em> <strong>111,</strong> 34 (2021). <a href="https://doi.org/10.1007/s11005-021-01366-5" target="_blank" style="font-family: monospace">doi:10.1007/s11005-021-01366-5</a></li>
 <li>G. Chesi, M. M. Wauters, N. Fasola, A. Allevi and M. Bondani, <em>Second Harmonic Revisited: An Analytic Quantum Approach</em>, <em>Appl. Sci.</em> <strong>2019</strong>, 9(8), 1690. <a href="https://doi.org/10.3390/app9081690" target="_blank" style="font-family: monospace">doi:10.3390/app9081690</a></li>
 </ul>
@@ -278,8 +348,32 @@ title: CV
 <div class="cv-wrapper-section">
 <table>
     <tr class="tr-no-bottom-space">
+        <td><strong>2-6 Sep. 2024</strong></td>
+        <td><a href="https://agmp.sites.sheffield.ac.uk/conferences/gpms-2024" target="_blank"><em>Geometry and Physics of Mirror Symmetry</em></a></td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+    <td></td>
+    <td>The University of Sheffield</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Co-organised together with Tom Bridgeland, <a href="https://andrea-brini.sites.sheffield.ac.uk/" target="_blank">Andrea Brini</a>, <a href="https://sites.google.com/view/fdelmonte/home" target="_blank">Fabrizio Del Monte</a>, Marco Fazzi and Ivan Tulli</td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+        <td><strong>2022-2023</strong></td>
+        <td><a href="https://agmp.sites.sheffield.ac.uk/seminars/past-seminars/SGaPS2022-23" target="_blank"><em>The Sheffield Geometry and Physics Seminar</em></a></td>
+    </tr>
+    <tr class="tr-no-bottom-space">
+    <td></td>
+    <td>The University of Sheffield</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Co-organised together with <a href="https://andrea-brini.sites.sheffield.ac.uk/" target="_blank">Andrea Brini</a> and <a href="https://sites.google.com/view/fdelmonte/home" target="_blank">Fabrizio Del Monte</a></td>
+    </tr>
+    <tr class="tr-no-bottom-space">
         <td><strong>2021-2022</strong></td>
-        <td><a href="https://agmp.sites.sheffield.ac.uk/seminars/past-seminars/the-sheffield-geometry-and-physics-seminar-202122" target="_blank"><em>The Sheffield Geometry and Physics Seminar</em></a></td>
+        <td><a href="https://agmp.sites.sheffield.ac.uk/seminars/past-seminars/SGaPS2021-22" target="_blank"><em>The Sheffield Geometry and Physics Seminar</em></a></td>
     </tr>
     <tr class="tr-no-bottom-space">
     <td></td>
@@ -299,7 +393,7 @@ title: CV
     </tr>
     <tr>
     <td></td>
-    <td>Co-organised together with Andrea Brini, <a href="https://sites.google.com/view/nikita-nikolaev/home" target="_blank">Nikita Nikolaev</a> and Tom Bridgeland</td>
+    <td>Co-organised together with Tom Bridgeland, <a href="https://andrea-brini.sites.sheffield.ac.uk/" target="_blank">Andrea Brini</a> and <a href="https://sites.google.com/view/nikita-nikolaev/home" target="_blank">Nikita Nikolaev</a></td>
     </tr>
 </table>
 </div>
@@ -309,6 +403,10 @@ title: CV
 <h1>Awards/Scholarships</h1><span class="cv-icon-openclose"><i class="fa-solid fa-angle-up"></i></span>
 <div class="cv-wrapper-section">
 <table>
+    <tr>
+        <td><strong>2024</strong></td>
+        <td>INdAM Borse per l'Estero</td>
+    </tr>
     <tr>
         <td><strong>2020</strong></td>
         <td>"Della Riccia" INFN fellowship</td>

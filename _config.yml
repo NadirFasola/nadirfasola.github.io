@@ -16,6 +16,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+collections:
+  courses:
+    output: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
 # Contenful integration
 contentful:
   spaces:
