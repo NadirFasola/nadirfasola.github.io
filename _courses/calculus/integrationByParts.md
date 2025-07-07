@@ -158,21 +158,31 @@ $$
 
 proceed as follows:
 
-1. Among $$f$$ and $$g$$ choose the one which you  can integrate easily, let it be $$f$$, with (some) primitive $$F$$, and the one of which you can easily compute the derivative, let it be $$g$$.
-2. Integrate $$f$$ to $$F$$ and comput
+<ol>
+{% include li.html id="item1" content="
+Among $$f$$ and $$g$$ choose the one which you  can integrate easily, let it be $$f$$, with (some) primitive $$F$$, and the one of which you can easily compute the derivative, let it be $$g$$.
+" %}
+{% include li.html id="item2" content="
+Integrate $$f$$ to $$F$$ and compute
 
-    $$
-    (g\cdot F)(b)-(g\cdot F)(a).
-    $$
+$$
+(g\cdot F)(b)-(g\cdot F)(a).
+$$
+    
+" %}
+{% include li.html id="item3" content="
+Differentiate $$g$$ and compute
 
-3. Differentiate $$g$$ and compute
+$$
+\int_{a}^b F(x)g^\prime(x)\operatorname dx.
+$$
 
-    $$
-    \int_{a}^b F(x)g^\prime(x)\operatorname dx.
-    $$
-
-    If you've made a smart choice in **1.**, this integral should be easier to compute than the one you started with.
-4. Subtract the results you got from **2.** and **3.** to get the integral you started with.
+If you've made a smart choice in [1.](#item1), this integral should be easier to compute than the one you started with.
+" %}
+{% include li.html id="item4" content="
+Subtract the results you got from [2.](#item2) and [3.](#item3) to get the integral you started with.
+" %}
+</ol>
 
 Now, you will have noticed that I said to choose as $$f$$ the function that is easiest to integrate, and for $$g$$ the one that is easiest differentiated. What does that mean in practice? In truth, this is one of those things for which only experience will tell you which choice is the smart one, but we still have one last mnemonic trick that might be of help, some sort of guideline in choosing.
 
