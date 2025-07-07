@@ -7,21 +7,21 @@ mathjax: true
 
 # Integration by Parts
 
-In the last few lectures, we've been delving into the nitty-gritty details of finding a good candidate for an *inverse* derivation.
+In the last few lectures, we've been deep diving into the details of finding a good candidate for an *inverse* derivation.
 
 We've seen that whereas the derivation is essentially computing the **slope** of the tangent line to the graph of a function, its inverse should be computing the **area** under the graph.
 
 ### What we know
 
-In the past few lectures, we defined the Riemann integral of a bounded function of a real variable $$f:[a,b]\to\mathbb R$$. Recall that the existence of the Riemann integral is not granted for all functions, but we saw that if $$f:[a,b]\to\mathbb R$$ is bounded, then it is Riemann-integrable. In fact, we've seen that a continuous function on the interval $$[a,b]$$ is integrable, but this is not necessary. However, a bounded function is Riemann-integrable if and only if it has at most countably many discontinuities in $$[a,b]$$. We've denoted the integral of $$f$$ as
+In the past few lectures, we defined the Riemann integral of a bounded function of a real variable $$f:[a,b]\to\mathbb R$$. Recall that the existence of the Riemann integral is not granted for all functions, but we saw that if $$f:[a,b]\to\mathbb R$$ is continuous, then it is Riemann-integrable, although this is not necessary. However, a bounded function is Riemann-integrable if and only if it has at most countably many discontinuities in $$[a,b]$$. We've denoted the integral of $$f$$ as
 
 $$
 \int_{a}^b f(x)\operatorname dx,
 $$
 
-and we've seen that it satisfies many pleasant properties, such as being $$\mathbb R$$-linear. Moreover, the set of Riemann-integrable functions form an $$\mathbb R$$-algebra, meaning that it is closed sum, product and scalar product.
+and we've seen that it satisfies many pleasant properties, such as being $$\mathbb R$$-linear. Moreover, the set of Riemann-integrable functions form an $$\mathbb R$$-algebra, meaning that it is closed under sum, product and scalar product.
 
-Most importantly, we've seen that integrating a continuous function $$f:[a,b]\to\mathbb R$$ essentially amounts to computing a primitive, that is <u><b>a</b></u> differentiable function $$F:[a,b]\to\mathbb R$$ such that $$F^\prime = f$$. If such a function exists, then the ***fundamental theorem of calculus*** tells us that
+Most importantly, we've seen that integrating a function $$f:[a,b]\to\mathbb R$$ essentially amounts to computing a **primitive**, also known as an **antiderivative**, that is <u><b>a</b></u> continuous function $$F:[a,b]\to\mathbb R$$, differentiable in $$(a,b)$$ and such that $$F^\prime = f$$. If such a function exists and $$f$$ is Riemann-integrable, then the ***fundamental theorem of calculus*** tells us that
 
 $$
 \int_{a}^b f(x)\operatorname dx=F(b)-F(a).
@@ -48,17 +48,17 @@ $$
 \int_1^e\log x\operatorname dx.
 $$
 
-Well, $$\log x$$ is definitely not hidden among the entries in our table of easy integrals of known functions. Then you might suspect you can solve this integral by substitution. Let's try. I guess that one of the most reasonable substitution that might come to mind would be to define $$u(x) = e^{-x}$$, so that $$\operatorname du = -e^{-x}\operatorname dx$$. Then, recalling our recipe for taking integrals of composite functions (that is, *integration by substitution*), we have that
+Well, $$\log x$$ is definitely not hidden among the entries of our table of easy integrals of known functions. Then you might think to try and solve this integral by substitution. Let's try that. I guess that one of the most reasonable substitution that might come to mind would be to define $$u(x) = e^{-x}$$, so that $$\operatorname du = -e^{-x}\operatorname dx$$. Then, recalling our recipe for taking integrals of composite functions (that is, *integration by substitution*), we have that
 
 $$
 \int_1^e\log x\operatorname dx = -\int_0^{1}ue^{-u}\operatorname du.
 $$
 
-Argh...it doesn't seem we've made much of a progress, does it? Maybe you could try other substitutions, bit I can ensure you it son't lead anywhere easily, unless you really really know your good old Gamma functions.
+It doesn't seem we've made much of a progress, does it? Maybe you could try other substitutions, bit I can assure you it wouldn't lead anywhere easily, unless you really really know your good old Gamma functions.
 
-Clearly, however, it's not possible to transform the integral of $$\log x$$ in a form that can simply be integrated by inspection. And that is bad, as this is such a simple function that its integral is ubiquitous in essentially any field of science - from the definition of entropy in physics, to surprisal in information theory and information content in machine learning.
- 
-What shall we do then? Should we give up mathematics and go do something else? 
+Clearly, it's not possible to transform the integral of $$\log x$$ in a form that can simply be integrated by inspection. And that is bad, as this is such a simple function that its integral is ubiquitous in essentially any field of science - from the definition of entropy in physics, to surprisal in information theory and information content in machine learning.
+
+What shall we do then? Should we give up mathematics and go do something else?
 
 We're in luck today, as here enters the star of the show:
 
@@ -81,7 +81,7 @@ $$
 Integration by parts is then a way to use Leibniz rule to simplify the computation of certain integrals (such as the one we've seen before), which cannot be solved by more elementary methods.
 
 {% assign ibp_content = "
-Let $F, G$ be differentiable functions on $[a,b]\subset\mathbb R$, such that $F^\prime := f$ and $G^\prime := g$  are Riemann-integrable functions on $[a,b]$. Then
+Let $F, G$ be continuously differentiable functions on $[a,b]\subset\mathbb R$, such that $F^\prime := f$ and $G^\prime := g$  are Riemann-integrable functions on $[a,b]$. Then
 
 $$
 \int_{a}^b F(x)g(x)\operatorname dx=\left[F(x)G(x)\right]_{a}^b-\int_{a}^b f(x)G(x)\operatorname dx.
@@ -109,7 +109,7 @@ and formally integrate it (after all, recall that thanks to the Fundamental Theo
 &=f(x)\cdot g(x) + C.
 \end{split}
 \\]
-Finally, rearranging the formula above, it can be brought in the form of the the theorem, namely
+Finally, rearranging the formula above, it can be brought in the form of the theorem, namely
 \\[
 \int f^\prime (x)g(x)\operatorname dx = f(x)g(x)-\int f(x)g^\prime(x)\operatorname dx +C.
 \\]
@@ -122,7 +122,7 @@ Finally, rearranging the formula above, it can be brought in the form of the the
 Let's quickly see how the IbP theorem is proved.
 
 {% assign ibp_proof = "
-Let $H(x) = (F\cdot G)(x)$. Since $F$ and G are differentiable functions on $[a,b]$, they are continuous on $[a,b]$, and so is $H(x)$. Using Leibniz rule, we have
+Let $H(x) = (F\cdot G)(x)$. Since $F$ and G are continuously differentiable functions on $[a,b]$, they are continuous on $[a,b]$, and so is $H(x)$. Using Leibniz rule, we have
 
 \\begin{equation}
 H^\prime (x) = F^\prime(x)\cdot G(x) + F(x)\cdot G^\prime(x) = f(x)\cdot G(x) + F(x)\cdot g(x),\label{E.1}
@@ -134,7 +134,7 @@ so $H^\prime (x)$ is Riemann-integrable on $[a,b]$. By applying the Fundamental 
 \int_{a}^b H^\prime(x)\operatorname dx = \mathscr H(b)-\mathscr H(a), \label{E.2}
 \\end{equation}
 
-where $\mathscr H$ is a primitive function of $H^\prime$. However, we know one obvious primitive for $H^\prime$, which is $H$ itself. 
+where $\mathscr H$ is a primitive function of $H^\prime$. However, we know one obvious primitive for $H^\prime$, which is $H$ itself.
 Finally, integrating \\eqref{E.1} and putting it together with \\eqref{E.2}, we get
 
 $$
@@ -160,26 +160,26 @@ proceed as follows:
 
 1. Among $$f$$ and $$g$$ choose the one which you  can integrate easily, let it be $$f$$, with (some) primitive $$F$$, and the one of which you can easily compute the derivative, let it be $$g$$.
 2. Integrate $$f$$ to $$F$$ and comput
-    
+
     $$
     (g\cdot F)(b)-(g\cdot F)(a).
-    $$ 
-    
+    $$
+
 3. Differentiate $$g$$ and compute
-    
+
     $$
     \int_{a}^b F(x)g^\prime(x)\operatorname dx.
     $$
-    
-    If you've been smart enough, this integral should be easier to compute than the one you started with.
-4. Subtract the result you got from 2. and 3. to get the integral you started with.
 
-Now, you will have noticed that I said to choose as $$f$$ the function that is easiest to integrate, and for $$g$$ the one that is easiest differentiated. What does that mean in practice? Truthfully, it is only experience that will tell you which choice is the smart one, but we still have one last mnemonic trick that might be of help, some sort of guideline in choosing, if you want. 
+    If you've made a smart choice in **1.**, this integral should be easier to compute than the one you started with.
+4. Subtract the results you got from **2.** and **3.** to get the integral you started with.
+
+Now, you will have noticed that I said to choose as $$f$$ the function that is easiest to integrate, and for $$g$$ the one that is easiest differentiated. What does that mean in practice? In truth, this is one of those things for which only experience will tell you which choice is the smart one, but we still have one last mnemonic trick that might be of help, some sort of guideline in choosing.
 
 {% assign tip_content = "
-A common strategy is then to choose $$g$$ and $$f$$ according to the order of preference specified by LIATE acronym
+A common strategy is to choose $$g$$ and $$f$$ according to the order of preference specified by LIATE acronym
 \\[
-g \longrightarrow \text{L. I. A. T. E.} \longleftarrow f 
+g \longrightarrow \text{L. I. A. T. E.} \longleftarrow f
 \\]
 where initials stand for
 - **L**ogarithimic functions
@@ -211,7 +211,7 @@ $$
 g^\prime (x) = \frac{\operatorname d}{\operatorname dx}\log x = \frac{1}{x}.
 $$
 
-With the notation of our previous recipe, we have that $$F(x)=x$$ (we can safely disregard the integration constant, as we're doing definite integrals), and $$g^\prime(x)=x^{-1}$$. Additionally, notice that the integral from point 3. in our recipe is now extremely easy to compute, and it's nothing but
+With the notation of our previous recipe, we have that $$F(x)=x$$ (we can safely disregard the integration constant, as we're doing definite integrals), and $$g^\prime(x)=x^{-1}$$. Additionally, notice that the integral from point **3.** in our recipe is now extremely easy to compute, and it's nothing but
 
 $$
 \int_{1}^e F(x)\cdot g^\prime(x)\operatorname dx=\int_{1}^e 1\operatorname dx=\left[x\right]_{1}^e = e-1
@@ -274,7 +274,7 @@ Let's end this lecture with a few rules of thumb for solving integrals via Integ
 {% assign tip_content = "
 - Choose $$f$$ to be the ***largest*** factor of the integrand you can easily integrate, either directly or by using the substitution method. You will often need to rewrite the integral to see this largest factor and, remember $$f(x)=1\cdot f(x)$$. This is especially useful when you cannot integrate ***any obvious*** factor within the integrand.
 - If you can integrate ***all*** factors in the integrand, then choose $$g$$ first to be the factor whose derivative changes form or becomes a constant.
-- Sometimes you have to use Integration by Parts more than once while evaulating an integral. In this case, try to stay with the same function type choice for all Integrations by Parts.
+- Sometimes you have to use Integration by Parts more than once while evaulating an integral. In this case, try to stay with the same function-type choice for all Integrations by Parts.
 " %}{% include theorem_env.html
   type="tip"
   title = "Rules of Thumb for applying Integration by Parts"
@@ -309,8 +309,8 @@ $$
 Let $$f$$ be a real, continuously differentiable function on $[a,b]\subset\mathbb R$, such that $f(a)=f(b)=0$ and
 \\[
 \int_{a}^b f^2(x)\operatorname dx = 1.
-\\] 
-Prove that 
+\\]
+Prove that
 \\[
 \int_{a}^b xf(x)f^\prime(x)\operatorname dx = -\frac{1}{2}.
 \\]
@@ -324,14 +324,14 @@ Define $f(x)$ to be the function
 \\[
 f(x) := \int_{x}^{x+1}\sin(t^2)\operatorname d t.
 \\]
-1. Prove that 
+1. Prove that
  $$
  |f(x)|<1/x \text{ if } x>0.
  $$
 1. Prove that $2f(x) = \cos(x^2)-\cos((x+1)^2)+r(x)$,
 where $|r(x)|<c/x$ and $c\in\mathbb R$ is a constant.
 
-> ***Hint***: for part 1, start with the substitution $u=t^2$, and than integrate by parts to show that 
+> ***Hint***: for part 1, start with the substitution $u=t^2$, and than integrate by parts to show that
 >\\[
 >f(x) = \frac{\cos x^2}{2x}-\frac{\cos(x+1)^2}{2(x+1)}-\int_{x^2}^{(x+1)^2}\frac{\cos u}{4u^{3/2}}\operatorname du,
 >\\]
