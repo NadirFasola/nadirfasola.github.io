@@ -1,0 +1,8 @@
+<div class="proof-env">
+    <div class="proof-header">
+        <strong>Proof{% if include.title %} ({{ include.title }}){% endif %}:</strong>
+    </div>
+    <div class="proof-body">
+        {{ include.content | markdownify }}
+    </div>
+    </div>

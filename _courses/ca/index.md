@@ -1,7 +1,9 @@
 ---
 layout: default
 title: MAS332 - Complex Analysis
+permalink: /courses/ca/
 mathjax: true
+published: false
 ---
 
 # MAS332 -- Complex Analysis

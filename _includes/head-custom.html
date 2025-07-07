@@ -11,11 +11,35 @@
 <!-- MathJax integration -->
 {% if page.mathjax %}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  // Configure MathJax
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']], // For inline equations
+      displayMath: [['$$', '$$'], ['\\[', '\\]']], // For block equations
+      tags: 'ams', // Enable AMS-style equation numbering (e.g., (1), (2a), etc.)
+      // You can also use 'all' for sequential numbering (1), (2), (3) across your document
+      // tags: 'all',
+      // Or 'none' to disable numbering by default
+      // tags: 'none',
+      processEnvironments: true, // Process LaTeX environments like \begin{align}
+      processRefs: true // Process \label and \ref
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore', // Class to ignore for MathJax processing
+      processHtmlClass: 'tex2jax_process' // Class to explicitly process
+    },
+    loader: {
+      load: ['[tex]/ams'] // Load AMS extensions for align, gather, etc.
+    }
+  };
+</script>
 <script
   id="MathJax-script"
   async
   src="https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.js"
 ></script>
+<script src="{{ "/assets/js/theorem_numbering.js" | relative_url }}" defer></script>
 {% endif %}
 
 <!-- Setup Google Analytics -->

@@ -66,3 +66,186 @@
     width: 70%;
   }
 }
+
+/* Main Content Container Styling for plain page */
+.main-content-container-plain {
+  max-width: 960px;
+  /* Or any width you prefer, e.g., 800px, 1024px */
+  margin: 0 auto;
+  /* Centers the container horizontally */
+  padding: 0 20px;
+  /* Add some horizontal padding to prevent content from touching edges on smaller desktop screens */
+  box-sizing: border-box;
+  /* Ensures padding is included in the max-width calculation */
+}
+
+/* Adjust for smaller screens (e.g., tablets and mobile) */
+@media screen and (max-width: 768px) {
+
+  /* Adjust this breakpoint as needed */
+  .main-content-container-plain {
+    max-width: 100%;
+    /* Allow content to span full width on smaller screens */
+    padding: 0 15px;
+    /* Adjust padding for smaller screens */
+  }
+}
+
+/* Optional: Even smaller mobile screens */
+@media screen and (max-width: 480px) {
+  .main-content-container-plain {
+    padding: 0 10px;
+    /* Even less padding for very small screens */
+  }
+}
+
+/* CUSTOM THEOREM ENVIRONMENT STYLES */
+.theorem-env {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1em 1.5em;
+  background-color: var(--clr-code-bg);
+  /* Background color like code blocks */
+  border: 1px solid var(--clr-code-border);
+  /* Subtle border like code blocks */
+  border-left: 3px solid var(--clr-splitter-blockquote-and-section);
+  /* Stronger left border like blockquotes/dividers */
+  border-radius: 5px;
+  /* Match pre's border-radius */
+}
+
+.theorem-env[data-type="theorem"],
+.theorem-env[data-type="definition"],
+.theorem-env[data-type="lemma"] {
+  border: 2px solid var(--clr-text);
+  /* Border on all sides, same color as main text */
+  // border-left: 3px solid var(--clr-text);
+  /* Thicker left border, also same color as main text */
+  /* Keep background and other properties inherited from .theorem-env base style */
+}
+
+.theorem-env .theorem-header {
+  margin-bottom: 0.5em;
+}
+
+.theorem-env .theorem-title {
+  font-weight: bold;
+  color: var(--clr-h1-and-bold);
+  /* Color like h1 and strong text */
+}
+
+.theorem-env .theorem-body p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  /* Adjust paragraph spacing within theorem */
+}
+
+/* Style for theorem references */
+.thm-ref {
+  font-style: italic;
+  /* Keep italic for distinction */
+  color: var(--clr-a-text);
+  /* Use general link color */
+}
+
+/* Proof Environment Styles */
+.proof-env {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1em 1.5em;
+  /* Some padding to contain content */
+  background-color: var(--clr-bg);
+  /* Use page background for maximum subtlety */
+  border: 1px dashed var(--clr-splitter-blockquote-and-section);
+  /* Subtle dashed border */
+  border-radius: 4px;
+  /* Consistent radius with other theme elements */
+}
+
+.proof-env .proof-header {
+  margin-bottom: 0.5em;
+  /* Add some space below the header before content */
+}
+
+.proof-env .proof-header strong {
+  font-weight: bold;
+  color: var(--clr-h1-and-bold);
+  /* Consistent with other bold headings */
+}
+
+.proof-env .proof-body {
+  /* Content will flow as blocks within this */
+}
+
+.proof-env .proof-body p:last-child {
+  margin-bottom: 0;
+  /* Remove bottom margin from last paragraph in proof */
+}
+
+/* Q.E.D. (End of Proof) Symbol */
+/* This will add a square symbol to the last paragraph of the proof body */
+.proof-env .proof-body p:last-of-type::after {
+  content: " \220E";
+  /* Unicode for End of Proof (∎) - commonly used */
+  font-family: 'Times New Roman', serif;
+  /* Often looks good in a serif font */
+  float: right;
+  /* Float it to the right */
+  margin-left: 0.5em;
+  font-weight: bold;
+  color: var(--clr-h1-and-bold);
+  /* Consistent with heading color */
+}
+
+/* TIP Environment: Designed to STAND OUT */
+.theorem-env[data-type="tip"] {
+  border-left: 5px solid var(--code-009926);
+  /* Thicker, distinct green border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  /* Subtle shadow to make it pop */
+  /* Background color remains subtle, same as other theorem-like blocks (var(--clr-code-bg)) */
+}
+
+.theorem-env[data-type="tip"] .theorem-title {
+  color: var(--code-009926);
+  /* Match title color to the green border */
+}
+
+
+/* EXAMPLE Environment: Differentiated from others */
+.theorem-env[data-type="example"] {
+  border-left: 3px solid var(--code-009999);
+  /* Cyan border for examples */
+  /* Background remains subtle (var(--clr-code-bg)) */
+}
+
+.theorem-env[data-type="example"] .theorem-title {
+  color: var(--code-009999);
+  /* Match title color to cyan border */
+}
+
+
+/* EXERCISE Environment: Differentiated from Example (using different border styles/colors) */
+.theorem-env[data-type="exercise"] {
+  border-left: 3px solid var(--code-445588);
+  /* Purple border for exercises */
+  /* Add dashed borders on other sides for clear differentiation from example's solid border */
+  border-top: 1px dashed var(--clr-code-border);
+  border-right: 1px dashed var(--clr-code-border);
+  border-bottom: 1px dashed var(--clr-code-border);
+  /* Ensure the left border remains solid */
+  border-left-style: solid;
+  /* Background remains subtle (var(--clr-code-bg)) */
+}
+
+.theorem-env[data-type="exercise"] .theorem-title {
+  color: var(--code-445588);
+  /* Match title color to purple border */
+}
+
+.theorem-env .theorem-title .title-colon {
+  color: var(--clr-text);
+  /* Sets the colon color to your default text color */
+  font-weight: normal;
+  /* Ensures the colon doesn't inherit bold styling from the title */
+}

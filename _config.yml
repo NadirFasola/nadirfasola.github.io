@@ -22,8 +22,10 @@ collections:
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  math_engine: mathjax
+  input: GFM # This enables GitHub Flavored Markdown (optional, but good practice)
+  hard_wrap: false # Prevents Jekyll from adding <br> tags unintentionally
+  math_engine: mathjax # <--- THIS IS CRITICAL! Tells Kramdown to leave math for MathJax.
+  syntax_highlighter: rouge # Ensure this is set to your highlighter (Jekyll's default is Rouge)
 
 # Contenful integration
 contentful:

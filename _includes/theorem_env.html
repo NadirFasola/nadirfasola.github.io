@@ -1,0 +1,10 @@
+<div class="theorem-env" data-type="{{ include.type }}" data-label="{{ include.label }}" id="thm-{{ include.label }}">
+    <div class="theorem-title">
+        <strong class="theorem-type">{{ include.type | capitalize }}</strong> <span class="theorem-label"
+            data-label="{{ include.label }}"></span>{% if include.title %}<span class="title-colon"> :</span> <span
+            class="theorem-custom-title">({{ include.title }})</span>{% endif %}
+    </div>
+    <div class="theorem-body">
+        {{ include.content | markdownify }}
+    </div>
+    </div>
