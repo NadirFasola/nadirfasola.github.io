@@ -208,9 +208,11 @@ We're now ready to revisit our motivating example, and let's see how Integration
 
 {% assign ex_content = "
 Lets' try to compute
+
 $$
 \int_{1}^e \log x\operatorname dx.
 $$
+
 Where is the product in this integral? Let's make an apparently silly choice and set $$f(x)=1$$ and $$g(x)=\log(x)$$. Clearly, $$(f\cdot g)(x)=\log x$$, while
 
 $$
@@ -354,11 +356,13 @@ where $|r(x)|<c/x$ and $c\in\mathbb R$ is a constant.
 %}
 
 {% assign tip_content = "
-There is a cool trick for computing the previous $\log x$ integral. You should first convince yourself that
+There is a useful trick for computing the previous $\log x$ integral. First, you should convince yourself that
+
 \\[
 \log(x)=\left.\frac{\operatorname d}{\operatorname ds}x^s\right|_{s=0}.
 \\]
-Then we have
+
+then we have
 
 $$
 \begin{split}
@@ -369,8 +373,8 @@ $$
 \end{split}
 $$
 
-Clearly, you might have spotted something cheeky here: the ***exchange of the integral-derivative order must be justified!***
-To show that this is a legit move, one can either invoke *Leibniz integral rule*, or take out the big guns, in the form of the *dominated convergence theorem*. In any case, these are considerations well beyond the scope of this lecture, and you'll just have to trust me for the moment that we can indeed exchange the order of integration and differentiation in this case!
+You might have spotted something suspicious here: the ***exchange of the integral-derivative order must be justified!***
+To show that this is a legitimate move, one could either invoke *Leibniz integral rule*, or take out the big guns, in the form of the *dominated convergence theorem*. In any case, these are considerations going well beyond the scope of this lecture, so you will just have to trust me for the moment that we can indeed exchange the order of integration and differentiation in this case!
 " %}{% include theorem_env.html
   type="tip"
   content=tip_content
