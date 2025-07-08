@@ -7,21 +7,21 @@ mathjax: true
 
 # Integration by Parts
 
-In the last few lectures, we've been deep diving into the details of finding a good candidate for an *inverse* derivation.
+In the last few lectures, we've delved deeply into the details of finding a good candidate for an *inverse* derivation.
 
-We've seen that whereas the derivation is essentially computing the **slope** of the tangent line to the graph of a function, its inverse should be computing the **area** under the graph.
+We have seen that, whereas derivation essentially involves computing the **slope** of the tangent line to a function's graph, its inverse involves computing the **area** under the graph.
 
 ### What we know
 
-In the past few lectures, we defined the Riemann integral of a bounded function of a real variable $$f:[a,b]\to\mathbb R$$. Recall that the existence of the Riemann integral is not granted for all functions, but we saw that if $$f:[a,b]\to\mathbb R$$ is continuous, then it is Riemann-integrable, although this is not necessary. However, a bounded function is Riemann-integrable if and only if it has at most countably many discontinuities in $$[a,b]$$. We've denoted the integral of $$f$$ as
+In the previous lectures, we defined the Riemann integral of a bounded function of a real variable $$f:[a,b]\to\mathbb R$$. Note that the existence of the Riemann integral is not guaranteed for all functions. However, we saw that if $$f:[a,b]\to\mathbb R$$ is continuous, then it is Riemann-integrable, although this is not strictly necessary. However, a bounded function is Riemann-integrable if and only if it has at most countably many discontinuities in $$[a,b]$$. We've denoted the integral of $$f$$ as
 
 $$
 \int_{a}^b f(x)\operatorname dx,
 $$
 
-and we've seen that it satisfies many pleasant properties, such as being $$\mathbb R$$-linear. Moreover, the set of Riemann-integrable functions form an $$\mathbb R$$-algebra, meaning that it is closed under sum, product and scalar product.
+and we've seen that it satisfies many desirable properties, such as being $$\mathbb R$$-linear. Moreover, the set of Riemann-integrable functions forms an $$\mathbb R$$-algebra, meaning that it is closed under sum and product of functions, and scalar product.
 
-Most importantly, we've seen that integrating a function $$f:[a,b]\to\mathbb R$$ essentially amounts to computing a **primitive**, also known as an **antiderivative**, that is <u><b>a</b></u> continuous function $$F:[a,b]\to\mathbb R$$, differentiable in $$(a,b)$$ and such that $$F^\prime = f$$. If such a function exists and $$f$$ is Riemann-integrable, then the ***fundamental theorem of calculus*** tells us that
+Most importantly, we have seen that integrating a function $$f:[a,b]\to\mathbb R$$ essentially amounts to computing a **primitive**, also known as an **antiderivative**, that is <u><b>a</b></u> continuous function $$F:[a,b]\to\mathbb R$$, differentiable in $$(a,b)$$ and such that $$F^\prime = f$$. If such a function exists and $$f$$ is Riemann-integrable, then the ***fundamental theorem of calculus*** tells us that
 
 $$
 \int_{a}^b f(x)\operatorname dx=F(b)-F(a).
@@ -33,7 +33,7 @@ $$
 F(x)=\int_{a}^x f(t)\operatorname dt.
 $$
 
-This has lots of extremely useful consequences, and we've already seen one in the ***Integration by Substitution*** formula, which enables us to compute integrals of functions of the form $$f(\varphi(x))\cdot\varphi^\prime(x)$$, where $$\varphi:[a,b]\to I$$ is continuously differentiable function and $$f:I\to\mathbb R$$ is continuous, via the formula
+This has many useful consequences, one of which we have already seen in the ***Integration by Substitution*** formula. This formula enables us to compute integrals of functions of the form $$f(\varphi(x))\cdot\varphi^\prime(x)$$, where $$\varphi:[a,b]\to I$$ is continuously differentiable function and $$f:I\to\mathbb R$$ is continuous
 
 $$
 \int_{a}^{b}f(\varphi(x))\cdot\varphi^\prime(x)\operatorname dx = \int_{\varphi(a)}^{\varphi(b)}f(u)\operatorname du.
@@ -42,21 +42,23 @@ $$
 
 ### The Integration by Parts formula
 
-What if I asked you to compute the integral of an apparently deceivingly simple function, say $$\log x$$. More specifically, say that I asked to compute the following integral
+What if I asked you to compute the integral of a seemingly simple function such as $$\log x$$? More specifically, say that I asked to compute the following integral
 
 $$
 \int_1^e\log x\operatorname dx.
 $$
 
-Well, $$\log x$$ is definitely not hidden among the entries of our table of easy integrals of known functions. Then you might think to try and solve this integral by substitution. Let's try that. I guess that one of the most reasonable substitution that might come to mind would be to define $$u(x) = e^{-x}$$, so that $$\operatorname du = -e^{-x}\operatorname dx$$. Then, recalling our recipe for taking integrals of composite functions (that is, *integration by substitution*), we have that
+Well, $$\log x$$ is definitely not among the functions listed in our table of easy integrals. Then you might think to try and solve this integral by substitution. Let's try that. One reasonable substitution that might come to mind is be to define $$u(x) = e^{-x}$$, so that $$\operatorname du = -e^{-x}\operatorname dx$$. Then, recalling our recipe for taking integrals of composite functions (that is, *integration by substitution*), we have that
 
 $$
 \int_1^e\log x\operatorname dx = -\int_0^{1}ue^{-u}\operatorname du.
 $$
 
+Does that make sense?
+
 It doesn't seem we've made much of a progress, does it? Maybe you could try other substitutions, bit I can assure you it wouldn't lead anywhere easily, unless you really really know your good old Gamma functions.
 
-Clearly, it's not possible to transform the integral of $$\log x$$ in a form that can simply be integrated by inspection. And that is bad, as this is such a simple function that its integral is ubiquitous in essentially any field of science - from the definition of entropy in physics, to surprisal in information theory and information content in machine learning.
+Clearly, it's not possible to transform the integral of $$\log x$$ into a form that can be easily integrated. And that is bad, as this is such a simple function that its integral is ubiquitous in essentially any field of science - from the definition of entropy in physics, to surprisal in information theory and information content in machine learning.
 
 What shall we do then? Should we give up mathematics and go do something else?
 
@@ -78,7 +80,7 @@ $$
 (f\cdot g)^\prime(x) = (f^\prime\cdot g)(x) + (f\cdot g^\prime)(x).
 $$
 
-Integration by parts is then a way to use Leibniz rule to simplify the computation of certain integrals (such as the one we've seen before), which cannot be solved by more elementary methods.
+Integration by parts is then a way of using Leibniz rule to simplify the computation of certain integrals that cannot be solved by more elementary methods, such as the one we have just seen.
 
 {% assign ibp_content = "
 Let $F, G$ be continuously differentiable functions on $[a,b]\subset\mathbb R$, such that $F^\prime := f$ and $G^\prime := g$  are Riemann-integrable functions on $[a,b]$. Then
@@ -98,18 +100,18 @@ $$
 {% endcapture %}
 
 {% assign tip_content = "
-Even though the formula from the theorem might look a bit scary at first, one cool mnemonic trick is to start from Leibniz formula for the derivative of a product
+Although the formula in the theorem may seem daunting at first, a useful mnemonic trick is to start with Leibniz formula for the derivative of a product
 \\[
 (f\cdot g)^\prime(x)=(f^\prime\cdot g)(x) + (f\cdot g^\prime)(x),
 \\]
-and formally integrate it (after all, recall that thanks to the Fundamental Theorem of Calculus, in order to compute an integral it's sufficient to look for a primitive function)
+then formally integrate it. After all, recall that, thanks to the Fundamental Theorem of Calculus, to compute an integral it is sufficient to look for a primitive function.
 \\[
 \begin{split}
 \int(f^\prime g)(x)\operatorname dx + \int (f\cdot g^\prime)(x)\operatorname dx &= \int (f\cdot g)^\prime(x)\operatorname dx\\
 &=f(x)\cdot g(x) + C.
 \end{split}
 \\]
-Finally, rearranging the formula above, it can be brought in the form of the theorem, namely
+Finally, rearranging the formula above brings it in the form of the theorem.
 \\[
 \int f^\prime (x)g(x)\operatorname dx = f(x)g(x)-\int f(x)g^\prime(x)\operatorname dx +C.
 \\]
@@ -148,9 +150,9 @@ which proves the theorem after rearranging the equation.
   title = 'of Thm. 1'
 %}
 
-Great! So now we have a new result for computing integrals at our disposal! But, how do we use it practically? Is it really useful? Here is an informal, human-readable translation of what the theorem is really telling us.
+Great! So now we have a new method of computing integrals at our disposal! But, how can we use it in practice? Is it really useful? Here is an informal, human-readable summary of what the theorem is really telling us.
 
-If you're given the integral of the product $$f\cdot g$$ of two functions $$f$$ and $$g$$, that is
+If you are given the integral of the product of two functions, that is
 
 $$
 \int_{a}^b f(x)g(x)\operatorname dx
@@ -160,7 +162,7 @@ proceed as follows:
 
 <ol>
 {% include li.html id="item1" content="
-Among $$f$$ and $$g$$ choose the one which you  can integrate easily, let it be $$f$$, with (some) primitive $$F$$, and the one of which you can easily compute the derivative, let it be $$g$$.
+Choose the function that you  can integrate easily (let's call it $$f$$, with a primitive $$F$$) and the function that you can easily differentiate (let's call it $$g$$).
 " %}
 {% include li.html id="item2" content="
 Integrate $$f$$ to $$F$$ and compute
@@ -168,7 +170,7 @@ Integrate $$f$$ to $$F$$ and compute
 $$
 (g\cdot F)(b)-(g\cdot F)(a).
 $$
-    
+
 " %}
 {% include li.html id="item3" content="
 Differentiate $$g$$ and compute
@@ -177,21 +179,21 @@ $$
 \int_{a}^b F(x)g^\prime(x)\operatorname dx.
 $$
 
-If you've made a smart choice in [1.](#item1), this integral should be easier to compute than the one you started with.
+If you made a smart choice in [1.](#item1), this integral should be easier to compute than the original one.
 " %}
 {% include li.html id="item4" content="
 Subtract the results you got from [2.](#item2) and [3.](#item3) to get the integral you started with.
 " %}
 </ol>
 
-Now, you will have noticed that I said to choose as $$f$$ the function that is easiest to integrate, and for $$g$$ the one that is easiest differentiated. What does that mean in practice? In truth, this is one of those things for which only experience will tell you which choice is the smart one, but we still have one last mnemonic trick that might be of help, some sort of guideline in choosing.
+You will have noticed that I said to choose the function that is easiest to integrate for $$f$$ and the one that is easiest to differentiate for $$g$$. What does that mean in practice? In truth, only experience will tell you which choice is the smart one, but we still have one last mnemonic trick that might help with choosing, a sort of guideline.
 
 {% assign tip_content = "
-A common strategy is to choose $$g$$ and $$f$$ according to the order of preference specified by LIATE acronym
+A common strategy is to choose $$g$$ and $$f$$ according to the order of preference specified by the LIATE acronym
 \\[
 g \longrightarrow \text{L. I. A. T. E.} \longleftarrow f
 \\]
-where initials stand for
+where the initials stand for
 - **L**ogarithimic functions
 - **I**nverse trigonometric functions
 - **A**lgebraic functions
@@ -202,26 +204,26 @@ where initials stand for
   content=tip_content
 %}
 
-We're now ready to revisit our motivating example, and let's see how Integration by Parts come in our help.
+We're now ready to revisit our motivating example, and let's see how Integration by Parts can help us.
 
 {% assign ex_content = "
 Lets' try to compute
 $$
 \int_{1}^e \log x\operatorname dx.
 $$
-Where is the product in this integral? Well, let's make an apparently silly choice, and put $$f(x)=1$$ and $$g(x)=\log(x)$$. Obviously $$(f\cdot g)(x)=\log x$$, moreover
+Where is the product in this integral? Let's make an apparently silly choice and set $$f(x)=1$$ and $$g(x)=\log(x)$$. Clearly, $$(f\cdot g)(x)=\log x$$, while
 
 $$
 \int 1\operatorname dx = x+C
 $$
 
-(recall that primitive functions are only defined up to additive constants $$C\in\mathbb R$$), and
+(recalling that primitive functions are only defined up to additive constants $$C\in\mathbb R$$), and
 
 $$
 g^\prime (x) = \frac{\operatorname d}{\operatorname dx}\log x = \frac{1}{x}.
 $$
 
-With the notation of our previous recipe, we have that $$F(x)=x$$ (we can safely disregard the integration constant, as we're doing definite integrals), and $$g^\prime(x)=x^{-1}$$. Additionally, notice that the integral from point **3.** in our recipe is now extremely easy to compute, and it's nothing but
+Using the notation from our previous recipe, we can write that $$F(x)=x$$ (we can safely disregard the integration constant as we are computing definite integrals), and $$g^\prime(x)=x^{-1}$$. Additionally, notice that the integral from step **3.** in our recipe is now extremely easy to compute and is simply
 
 $$
 \int_{1}^e F(x)\cdot g^\prime(x)\operatorname dx=\int_{1}^e 1\operatorname dx=\left[x\right]_{1}^e = e-1
@@ -241,10 +243,10 @@ $$
   content=ex_content
 %}
 
-This is not the only way the IbP formula is useful though! Let's look at an another example, where a little more ingenuity is needed!
+However, this is not the only way in which the IbP formula is useful! Let's look at an another example that requires a little more ingenuity!
 
 {% assign ex_content = "
-Consider now $$h(x)=\cos^2(x)$$. The function $$h(x)$$ is a continuous function of the whole real line, and we'll try to find its primitive $$H(x)$$. We'll start by noticing that $$h(x) = 1-\sin^2(x)$$. This immediately tells us that
+Consider now $$h(x)=\cos^2(x)$$. This function is continuous across the entire real line, and we'll try to find its primitive $$H(x)$$. We'll start by noting that $$h(x) = 1-\sin^2(x)$$. This immediately tells us that
 
 \\begin{equation}
 \int \cos^2(x)\operatorname dx = \int(1-\sin^2(x))\operatorname dx = x - \int\sin^2x\operatorname dx. \label{ex2.1}
@@ -256,19 +258,19 @@ $$
 \int \sin x\operatorname dx=-\cos x+C,
 $$
 
-while $$(\sin x)^\prime=\cos(x)$$. If we let $$f(x)=g(x)=\sin(x)$$, we have $$f(x)g(x)=\sin^2(x)$$, and we'll apply the IbP formula to this product.
+while $$(\sin x)^\prime=\cos(x)$$. If we set $$f(x)=g(x)=\sin(x)$$, we have $$f(x)g(x)=\sin^2(x)$$, and we will apply the IbP formula to this product.
 
 \\begin{equation}
 \int\sin^2x\operatorname dx = \int(f\cdot g)(x)\operatorname dx=-\cos(x)\sin(x) + C+\int \cos^2(x)\operatorname dx. \label{ex2.2}
 \\end{equation}
 
-Substituting \\eqref{ex2.1} in \\eqref{ex2.2}, we finally get
+Substituting equation \\eqref{ex2.1} into equation \\eqref{ex2.2}, we finally get
 
 $$
-\int\cos^2x\operatorname dx = x + \cos(x)\sin(x) + C - \int\cos^2(x)\operatorname dx,
+\int\cos^2x\operatorname dx = x + \cos(x)\sin(x) + C - \int\cos^2(x)\operatorname dx.
 $$
 
-and bringing all the integrals to the left hand side, we conclude that
+Bringing all the integrals to the left-hand side, we conclude that
 
 $$
 \int\cos^2x\operatorname dx = \frac{x+\sin x\cos x}{2} + C.
@@ -279,19 +281,19 @@ $$
 %}
 
 
-Let's end this lecture with a few rules of thumb for solving integrals via Integration by Parts.
+To conclude this lecture, here are a few rules of thumb for solving integrals using Integration by Parts.
 
 {% assign tip_content = "
-- Choose $$f$$ to be the ***largest*** factor of the integrand you can easily integrate, either directly or by using the substitution method. You will often need to rewrite the integral to see this largest factor and, remember $$f(x)=1\cdot f(x)$$. This is especially useful when you cannot integrate ***any obvious*** factor within the integrand.
+- Choose $$f$$ to be the ***largest*** factor of the integrand that you can easily integrate, either directly or by using the substitution method. You will often need to rewrite the integral to identify this largest factor, bearing in mind that $$f(x)=1\cdot f(x)$$. This is especially useful when you cannot integrate ***any obvious*** factor within the integrand.
 - If you can integrate ***all*** factors in the integrand, then choose $$g$$ first to be the factor whose derivative changes form or becomes a constant.
-- Sometimes you have to use Integration by Parts more than once while evaulating an integral. In this case, try to stay with the same function-type choice for all Integrations by Parts.
+- Sometimes you have to use Integration by Parts more than once when evaulating an integral. In this case, try to stay with the same function-type choice for all Integrations by Parts.
 " %}{% include theorem_env.html
   type="tip"
   title = "Rules of Thumb for applying Integration by Parts"
   content=tip_content
 %}
 
-As always, you should get your hands dirty to build some feeling for a new concept, so here are some fun exercises for you to get some practice!
+As always, the best way to get to grips with a new concept is to get your hands dirty, so here are some fun exercises to help you practise!
 
 {% assign exercise = "
 Consider $$f(x)=x\log(x)$$. Can you integrate $$f(x)$$ over $$I=[0,1]\subset\mathbb R$$? If so, compute its integral over $$I$$.
